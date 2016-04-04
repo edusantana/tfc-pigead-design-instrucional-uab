@@ -2,21 +2,24 @@
 output: 
   pdf_document: 
     latex_engine: xelatex
+    toc: true
+    number_sections: true
+    fig_caption: true
 bibliography: bibliografia.bib
 csl: associacao-brasileira-de-normas-tecnicas-eceme.csl
 ---
-## Introdução
+# Introdução
 
-### Objetivo
+## Objetivo
 
-#### Objetivo geral
+### Objetivo geral
 
 Analisar a implementação do Design Instrucional de materiais didáticos (impressos) para EAD em uma determinada área do conhecimento, através dos livros criados e depositados por diferentes IES (Instituições do Ensino Superior) no SisUAB.
 
-#### Objetivos específicos
+### Objetivos específicos
 - Investigar a implementação do Design Instrucional do material didático impresso para os cursos de licenciatura em Computação na modalidade a distância; (Eduardo de Santana Medeiros Alexandre)
 
-### Justificativa
+## Justificativa
 
 Nos últimos anos, a Educação a Distância deixou de ser apenas um espaço de ensino-aprendizagem e passou a ser o próprio objeto de pesquisa de diversas áreas que vão desde a Pedagogia passando pelas Ciências da Informação. Enquanto objeto de pesquisa, um dos pontos analisados na EAD é a produção de material impresso, a exemplo do seu Design instrucional. Este, de acordo com Abreu-Fialho e Barreto (2008), é uma nova estratégia para atribuir novos usos e sentidos a velhas tecnologias como é o caso do material didático impresso. Somado a isso, o design instrucional também interfere na aprendizagem do aluno, pois, o mesmo muitas vezes direciona a leitura do aluno, cria espaços de interação entre o aluno e o livro, construindo, assim, um espaço marcado pela hipertextualidade (SILVA; CASTRO, 2009).
 
@@ -28,112 +31,105 @@ Até mesmo as equipes que produziram os próprios materiais podem desconhecer a 
 
 Esse trabalho representa uma contribuição empírica sobre a história do Design Instrucional no Brasil, ao analisar as obras do principal repositório de livros de educação a distância no Brasil. Os cursos de Computação, História e Letras em inglês foram escolhidos devido a serem as áreas de formação dos pesquisadores.
 
-## Pressupostos teóricos
+# Pressupostos teóricos
 
-### Design Instrucional
+## Design Instrucional
 
-O Design Instrucional (DI), pode ser entendido como um processo sistemático de planejamento e gerência de instrução para obter aprendizado efetivo [@Arinto2011]  [@aula2]. Existem diversos modelos para condução do processo de DI [@Scortegagna2011], sendo a etapa de produção dos materiais didáticos mais relevante para essa pesquisa.
+O Design Instrucional (DI), pode ser entendido como um processo sistemático de planejamento e gerência de instrução para obter aprendizado efetivo [@Arinto2011]  [@aula2]. Existem diversos modelos para condução do processo de DI [@Scortegagna2011], sendo a etapa de produção dos materiais didáticos a mais relevante para essa pesquisa.
 
 Durante essa etapa a equipe de produção dispõe de várias técnicas que podem ser implementadas, objetivando proporcionar o aprendizado efetivo dos alunos, através dos materiais didáticos. Algumas dessas técnicas serão apresentadas a seguir.
 
-### Técnias de design instrucional
+## Técnias de design instrucional
 
-Nessa seção são apresentadas algumas técnicas de Desgin Instrucional para produção de materiais didáticos impresso.
+Nessa seção são apresentadas técnicas de Desgin Instrucional para produção de materiais didáticos impresso.
 
-#### Objetivos de Aprendizagem
+### Objetivos de Aprendizagem
 
 Os objetivos de aprendizagem "estabelecem prioridades no conteúdo de uma aula e definem exatamente o que o aluno deverá ser capaz de executar ao final de seu estudo" [@aula2 p. 48]. O foco do objetivo está no que o aluno será capaz de realizar.
 
 Recomenda-se que, além de claramente redigidas, essa técnica seja empregada no início das unidades didáticas [@Silva2013 p. 64]. Quando os objetivos são redigidos de forma mensurável é possível que os próprios alunos sejam capazes de verificar se atingiram os objetivos da unidade [@Wolfram97 p. 56].
 
-O conceito de *objetivo* costuma ser confundido com o de *meta*, portanto faz-se necessário compreender sua distinção. A meta é "uma  descrição, em termos bastante gerais, do que o professor pretende fazer ao longo de uma aula (ou de um curso)" [@aula2 p. 46]. A meta é focada na emissão do professor, o que ele irá apresentar.
+O conceito de objetivo costuma ser confundido com o de *meta*, portanto faz-se necessário compreender sua distinção. A meta é "uma  descrição, em termos bastante gerais, do que o professor pretende fazer ao longo de uma aula (ou de um curso)" [@aula2 p. 46]. A meta é focada na emissão do professor, o que ele irá apresentar.
 
-### Linguaguem dialógica
+## Linguaguem dialógica
 
-A utilização da técnica de linguagem dialógica possibilita diminuir dificuldades de compreensão do texto pelos alunos, proporcionando um sentimento de proximidade com o autor do texto, e a percepção de que existem pessoas preocupadas com o seu aprendizado [@aula2 p. 83-85].
+A utilização da técnica de linguagem dialógica possibilita diminuir dificuldades de compreensão do texto pelos alunos, proporcionando um sentimento de proximidade com o autor do texto, e a percepção de que existem pessoas preocupadas com o seu aprendizado [@aula2 p. 83-85]. Esse recurso é considerado essencial por alguns pesquisadores [@Silva2013 p. 65].
+
+A utilização da linguagem dialógica nos materiais para educação a distância é um dos pontos de maior dificuldade dos professores do presencial que se propõem escrever para EAD [@aula2 p. 83].
+
+## Atividades de autoavaliação
+
+Nos materiais para EAD, as atividades de autoavaliação proporcionam oportunidades para os alunos consolidarem o seu processo de aprendizagem [@Silva2013 p. 66]. Recomanda-se utilizar atividades em vez de apresentações de princípios, generalizações e interpretações importantes [@aula2 p. 145], pois envolver os alunos com atividades escritas reduz-se as chances deles tornarem-se passivos e entediados durante o estudo [@Wolfram97 p. 80].
 
 
+## Espaço para realização das atividades
 
-            (3)  disponibilização  de  informações  por  meio  de  uma  linguagem  clara,  direta, em  tom de  conversa  e  que  utilize  uma  arquitetura  da  informação  articulada,  permitindo  ao  material  maior  versatilidade   tanto  nos  percursos  de  estudo  quanto  no atendimento a alunos  com  diferentes  perfis  socioacadêmicos  e  diferentes  estilos  de  aprendizagem. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            Cremos firmemente que essa é uma  característica  deve  ser  a  pedra  angular  na  elaboração  do  MDI:  que  o  texto  apresente-se  de  maneira  dialógica,  coloquial,  capaz  de  reproduzir  uma  conversa entre professor e aluno (BELISÁRIO, 2006, p. 140; ABREU-FIALHO  &  BARRETO,  s/d),  a  fim  de  que  a  leitura  não  seja  enfadonha,  cansativa  e  desmotivadora.  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            Ao pegar seu material didático impresso para estudar, o aluno espera se sentir indo a uma aula; em outras palavras, ele espera ser recebido pelo professor, sem formalidades que o façam se sentir, de fato, a distância...  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/3-Producao_de_Material_Didatico_(PMD)/semana2/Aula_5.pdf>
-            Uma das maiores dificuldades de nós, professores do ensino presencial, quando vamos elaborar um material para Educação a Distância é entender que não estamos redigindo capítulos de livros ou artigos científicos. É nos desprender da linguagem rebuscada - com a qual estamos acostumados sem nos darmos conta. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/3-Producao_de_Material_Didatico_(PMD)/semana2/Aula_5.pdf>
-            Uma das maneiras de diminuir a dificuldade de os alunos entenderem um determinado conteúdo é aproximá-lo deles. Isso pode ser feito de duas maneiras: 1. contextualizando, dando exemplos que concretizem conceitos abstratos; 2. fazendo com que o aluno se sinta de fato em uma aula, que ele sinta que há um professor do outro lado do papel, preocupado em lhe ensinar aquele conteúdo. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/3-Producao_de_Material_Didatico_(PMD)/semana2/Aula_5.pdf>
-            O texto é apresentado utilizando uma linguagem dialógica?
-        Atividades de autoavaliação
-            2) Auto-avaliação – propostas de exercícios de escrita, nas quais os  alunos  consolidam  seu  processo  de  aprendizagem  ao  reescrever  com suas palavras o que estudaram e, assim, sistematizem também  sua revisão do conteúdo;  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            O texto apresenta atividades de auto-avaliação?
-        Espaço para realização das atividades
-            Quando um espaço, uma lacuna ou uma grade foram oferecidos como local para uma resposta simples (um tique, uma palavra, observações curtas), uma proporção extremamente alta dos alunos – 80 a 100% – fez a atividade. No entanto, quando a atividade solicitou a redação de uma resposta, mesmo curta, a proporção de alunos que fez a atividade caiu dramaticamente para 30 a 50%, mesmo que houvesse espaço oferecido para isso. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/3-Producao_de_Material_Didatico_(PMD)/todo-o-material/apendice_07e08.pdf>
-            As atividades apresentam espaço para sua realização no próprio livro?
-            Atividades de V ou F apresentam espaço, devem ser contadas!
-        Respostas das Atividades de autoavaliação
-            na tentativa de economizar tempo de estudo, muitos aprendizes simplesmente lêem as atividades e passam direto aos comentários fazendo pouco (ou nenhum) esforço para realizá-las. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/3-Producao_de_Material_Didatico_(PMD)/todo-o-material/apendice_07e08.pdf>
-             Tenha certeza de que, se ele quiser olhar a resposta, vai olhar, onde quer que ela esteja. Respostas de cabeça para baixo, por exemplo, só vão irritar o aluno, talvez a ponto de ele abandonar a atividade de vez. Se ele se sentir muito tentado pela chance de olhar a resposta, pode facilmente colocar uma folha sobre ela, enquanto resolve o exercício. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/3-Producao_de_Material_Didatico_(PMD)/todo-o-material/apendice_06.pdf>
-            As atividades de autoavaliação apresentam respostas. 1-5
-        Ilustrações Didáticas
-            According to Hartley (1994), illustrative devices are best used when: *  something is too abstract to explain in words, *  something is too complex to explain in words, or *  you want the learner to look at more than one idea at the same time. However, these general guidelines need to be broken down into something more detailed. This  is done in Table 19 where 11 types of instructional purpose are identiﬁed and matched against  the various types of illustrative device. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/pub_odlinstdesignHB.pdf>
-            Ilustrações didáticas: Devem ser claras, atrativas, chamativas, estéticas, fáceis de ser  compreendias. Elas têm função didática, e não mera ilustração para “co- lorir” o texto. Portanto, a escolha de quais ilustrações e a quantidade  delas devem ser bem pensadas e ponderadas em função do que se quer  ensinar por meio delas. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/producao_material_didatico_impresso_oreste_preti.pdf>
-            O texto apresenta ilustrações didáticas (não possuem função). 1-5
-        Exemplos
-            4) Exemplificação  –  a  fim  de  auxiliar  ao  aluno  a  relação  teoria- prática,  conexão  com  a  realidade.  Para  autor,  “a  apresentação  sistemática  de  exemplos  dos  conceitos  e  teorias  discutidas  nos  textos  básicos,  é  condição  imprescindível”  (BELISÁRIO,  2006,  p.  144) aos estudos dos alunos;  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            Examples are most important at the comprehension and application levels of Bloom’s taxonomy <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/pub_odlinstdesignHB.pdf>
-            Exemplos negativos
-                4.3.6  THE USE OF NON-EXAMPLES When teaching concepts, it is important to give both examples of the concept and non-examples  of the concept. For instance, Figure 10 shows how to teach the concept ‘square’. Four squares  are shown on the left-hand side, but these alone are not enough to avoid misunderstanding.  Learners might think that square-ness has something to do with position on the page, colour,  shading, and so on. The provision of the non-examples on the right-hand side clearly shows that  the only difference between squares and non-squares is shape.  FIGURE 10. Showing ‘square-ness’ by giving examples and non-examples <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/pub_odlinstdesignHB.pdf>
-            O texto apresenta exemplificações para auxiliar o leitor a compreender os assuntos abordados. 1-5
-        Conteúdo Multimídia
-            5) Animações  e  vídeos  –  como  o  texto  refere-se  à  produção  de  material  para  o  ambiente  virtual,  esse  é  um  item  importante.  Entretanto,  não  passível  de  realização  em  material  didático  impresso,  por  questões  de  formato.  Contudo,  não  são  itens  impossíveis  de  serem  utilizados  no  MDI,  pois  pode-se  utilizar  o  recurso  de  inclusão  de  um  hipertexto,  disponibilizando-se  os  links  (de vídeos, sites, animações, ambientes virtuais, redes sociais, etc.)  que os alunos podem acessar para complementar sua leitura;  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            O texto apresenta referências a conteúdos multimídia 1-5
-        Resumos
-            6) Resumos – o autor afirma que os resumos devem ser incluídos,  independentemente  da  existência  de  ‘paradas  forçadas’  ou  exercícios  auto-avaliação.  O  papel  dos  resumos  é  destacar  ideias  centrais  do  texto  e  fazer  ligação  com  os  objetivos  propostos  no  início;  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            O texto apresento seções de resumo ao final de cada capítulo/unidade.
-        Informações periféricas sem quebrar fluxo
-            informações  periféricas  e  são  realizados  com  objetivos  diversos,  tais  como:    a)  aprofundar    um    determinado    ponto;  b)  mostrar uma curiosidade sobre o assunto, o que não cabe  fazer  na  sequência   do    texto    principal,    pois    quebraria    sua    fluidez    e    seu  encadeamento;  c)  oferecer  a um estudante menos preparado para o estudo do conteúdo daquela  aula informações das quais ele precisará para entendê-la; d) definir expressões  ou termos técnicos ou,  ainda, e) ressaltar  informações  de  maior  importância   no contexto  do  objeto  do  saber  ou  contextualizá-lo  com  o  uso  de  outras   mídias.  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            Ramos,  Rabelo  e  Abreu-Filho  (2007,  p.  227)  esclarecem  que,  em  uma  aula,  escreve-se  nos  núcleos  conceituais  a  informação  contínua,  de  modo  a  que o aluno perceba quais conceitos relevantes para que ele atinja os objetivos  da  aula.  Entretanto,  as  informações  periféricas  estão  presentes  para  complementar o conteúdo nuclear.  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-            O texto apresenta informações periféricas, sem quebrar a continuidade da leitura (caixas ao lado do texto). 1-5
-        Dispositivos de acesso
-            Lista de conteúdo por unidade
-                Contents lists It is common practice to include a contents list for each unit of study. This helps the learners get  an overview of what they are about to study and can be seen as a form of advance organiser (see  section 4.1, ‘Structuring a Unit’). <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/pub_odlinstdesignHB.pdf>
-                As unidades apresentam uma lista de conteúdo (um mini-sumário). 1-5
-            Glossário
-                3) Glossário – para facilitar a clareza e compreensão do texto, sem  que o aluno dependa de outra pessoa (professor, tutor, monitor) para  esclarecer o significado de algum termo mais preciso;  <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/tcc/2061-5169-1-PB.pdf>
-                *  Alguns alunos são holísticos: Gostam de começar por ter uma perspectiva geral  acerca de um tema, e depois preenchem os pormenores e os conceitos à  maneira deles. Isto sugere que os materiais de aprendizagem devem incluir  sinalizações, sumários, explicações alternativas de conceitos difíceis, legendas  explicativas de figuras, um glossário de termos, um bom índice, etc., para  ajudar os alunos holísticos a se orientarem.  
-                *  Alguns alunos são serialistas: Gostam de seguir uma progressão lógica acerca  de um tema, começando pelo princípio. Os alunos serialistas precisam de uma  orientação passo-a-passo, por exemplo, ao longo de um trabalho de tipo  projecto.  
-                *  Alguns alunos são visualizadores: A respectiva aprendizagem é ajudada através  da inclusão de diagramas, imagens, fluxogramas, etc.   <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/concebermateriais.pdf>
-                Glossary items Some courses contain glossaries to explain the meanings of key words. These may be at the  back of the course materials or published as a separate item. To make these glossary items  even more accessible, the relevant entry is sometimes reproduced alongside the ﬁrst use of that  particular term. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/pub_odlinstdesignHB.pdf>
-                GLOSSÁRIO Necessário quando no texto há muitos termos novos para o estu- dante, e ele teria dificuldades para compreendê-los ao consultar, por  exemplo, um dicionário. <project://14C7F560C0E3ZLRNQVG55LCWSLV0HEVXST16/../../Dropbox/pigead/biblioteca/design-instrucional/producao_material_didatico_impresso_oreste_preti.pdf>
-                O texto disponibiliza um glossário para ser acessado 1-5
-                Não é apresentação de conceitos
-        Destaque do código
-        Texto alinhado a esquerda
+Quando o material didático é diagramado com espaço para as respostas das atividades, os alunos apresentam-se mais propensos a respondê-las. Quanto menor o esforço mental para realizá-las maior será a proporção de alunos que irão respondê-las. Uma pesquisa indica que quando o espaço oferecido é de uma lacuna pequena, como questões de verdadeiro ou falso, mais de 80% dos alunos respondem, enquanto o espaço é maior, mesmo que a resposta seja curta, de menos de %50% dos alunos respondem [@aula2 p. 211].
 
-## Método
+## Ilustrações
 
-### Perguntas da pesquisa
+Recomenda-se que a ilustrações inseridas nos materiais didáticos para EAD possuam uma função didática, e não apenas ilustrativa [@Preti2010 p. 113]. De forma geral, as ilustrações são melhor utilizadas nos seguintes contextos: a) algo é muito abstrato para ser explicada em palavras; b) algo é muito complexo para ser explicada em palavras; c) deseja-se que o aluno observe mais de uma ideia ao mesmo tempo [@Freeman2005 p. 111]. Além desses contextos, as ilustrações podem ser utilizadas buscando certos propósitos.
 
-#### Existenciais
+As ilustrações podem ser utilizadas com os seguintes propósitos: mostrar como algo parece, mostrar como algo funciona, apresentar relacionamentos quantitativos, exibir mudanças ao longo do tempo, apresentar relacionamentos ou padrões, apresentar estrutura, apresentar sequência ou processo, simplificar, motivar, causar emoção ou sentimento, dar ênfase, divertir ou decorar [@Freeman2005 p. 112].
+
+## Referências a conteúdos multimídia
+
+Para completar a leitura dos alunos, os materiais didáticos podem ofertar conteúdos multimídia através de links para sites, vídeos, animações, simulações, etc [@Silva2013 p. 66].
+
+## Resumos
+
+As seções de resumos, geralmente no final das unidades, tem o propósito de lembrar os alunos o que eles aprenderam [@Freeman2005 p. 82], destacar as ideias  centrais  do  texto  e  fazer  ligações  com  os  objetivos de aprendizagem estabelecidos [@Silva2013 p. 66].
+
+
+## Informações periféricas sem quebrar fluxo
+
+As informações periféricas são recursos que apresentam informações fora do fluxo central do texto (sem interferir na leitura sequencial), possibilitando os alunos trilharem camimhos diferentes de leituras, e favorencendo diferentes perfis de aprendizagem [@AbreuFialho2008].
+
+
+As informações periféricas complementam o conteúdo pricipal do texto, costumam serem  utilizadas para aprofundar certos pontos da aula, apresentar curiosidades, apresentar informações a alunos menos preparado para o estudo daquela aula, ressaltar informações e conxtextualizar através de outras mídias [@Silva2013 p. 68]. 
+
+## Lista de conteúdo por unidade
+
+Esse recurso consiste em apresentar um minisumário por unidade de estudo, para que o aluno possa ver antecipadamente os conteúdos que serão abordados por ela, as vezes também apresenta-se através de uma lista de conceitos [@Freeman2005 p. 132].
+
+## Glossário
+
+O glossário tem o propósito de "facilitar a clareza e compreensão do texto, sem  que o aluno dependa de outra pessoa (professor, tutor, monitor) para  esclarecer o significado de algum termo mais preciso" [@Silva2013 p. 66], ou apenas para explicar o significado de palavras chaves [@Freeman2005 p. 133].
+
+Recomenda-se que caso as explicações dos termos sejam breves, elas sejam apresentadas próximo a eles, caso contrário, podem ser colocadas no final do material ou unidade [@Preti2010 p. 106].
+
+## Destaque do código
+
+O destaque do código consiste em apresentar os códigos fonte com destaque (cor, negrito ou itálico) de acordo com a sintaxe da linguagem do código apresentada. Esse recurso, praticamente essencial em ambientes de programação, possibilita um aumento de 25% na legibilidade do código, tornando-o mais fácil de ser compreendido [@Sarkar2015].
+
+
+# Método
+
+## Perguntas da pesquisa
+
+### Existenciais
 - As técnicas foram utilizadas?
 
-#### Descritivas e de classificação
+### Descritivas e de classificação
 - Como as técnicas foram implementadas?
 - Como podemos medi-las?
 - Como podemos comparar a utilização das técnicas?
 
-#### Frequência
+### Frequência
 - Com que frequência as técnicas são normalmente utilizadas?
 
-#### Relacionamento
+### Relacionamento
 - Existe relação entre as disciplinas dos livros e as técnicas utilizadas?
 - Existe relação entre as instituições e as técnicas utilizadas?
 
-#### Casualidade
+### Casualidade
 - As disciplinas dos livros influenciam nas utilizações das técnicas?
 - As instituições influenciam nas utilizações das técnicas?
 
-#### Análise Descritiva
+### Análise Descritiva
 - Como foram implementadas as técnicas de design instrucional nos livros de computação depositados no SisUAB?
 
-#### Análise Inferencial
+### Análise Inferencial
 - Existe diferença na implementação das técnicas de DI influenciadas pelo tipo da disciplina?
 - Existe diferença na implementação das técnicas de DI no mesmo curso de uma instituição?
 - Existe diferença na implementação das técnicas de DI numa mesma instituição?
@@ -141,7 +137,7 @@ A utilização da técnica de linguagem dialógica possibilita diminuir dificuld
 - Como a implementação das técnicas de DI são influenciadas pelo tipo da disciplina?
 
 
-### Definição do corpus
+## Definição do corpus
 
 Os corpora dos livros foram definidos através de um processo sistemático de busca, para representar os livros produzidos para cada área pesquisada:
 
@@ -149,44 +145,19 @@ Os corpora dos livros foram definidos através de um processo sistemático de bu
 - Definição de quais disciplinas representam a área pesquisa e elaboração do seu string de busca.
 - Elaboração de critérios de inclusão de exclusão de livros.
 
-### Corpus da área de Computação
+## Corpus da área de Computação
 
-A área de computação contempla vários cursos que precisam ser incluídos na pesquisa, alguns exemplos são: Ciências da Computação, Informática, Sistemas de Informação, Tecnologia em Análise e Desenvolvimento de Sistemas.
+O corpus de computação foi definido como sendo um subconjunto dos resultados de uma busca no SisUAB, que represente os materiais didáticos das disciplinas de computação, nos cursos de computação. Encontrar os parâmetros (*strings*) de busca que retorne os resultados desejados é um processo incremental, sendo refinados durante cada iteração de tentativa e avaliação.
 
-O seguinte string de busca foi elaborado para representar os cursos: “informática computação informação sistema”.
+A área de computação contempla vários cursos: Ciências da Computação, Informática, Sistemas de Informação, Tecnologia em Análise e Desenvolvimento de Sistemas. O *string* de busca do curso deve contemplar todos esses cursos.
+
+O seguinte *string* final de busca foi elaborado para representar os cursos: “informática computação informação sistema”.
 
 As disciplinas escolhidas para representar a área de computação foram: Linguagem de Programação, Introdução a Algoritmo, Sistemas Operacionais, Engenharia de Software, Redes de computadores, Estrutura de Dados, Banco de Dados e Arquitetura de Computadores.
 
-O seguinte string de busca foi elaborado para representar as disciplinas: “Algoritmo Programação Sistema Software Programa Dados Computação Informática Computador”. 
+O *string* final de busca elaborado para representar as disciplinas foi: “Algoritmo Programação Sistema Software Programa Dados Computação Informática Computador”. 
 
-### Critérios de Inclusão e exclusão
-
-Ao realizar a busca utilizando a composição dos strings anteriores, a busca no repositório do SisUAB retorna vários resultados irrelevantes que precisam ser excluídos.
-
-Foram excluídos todos os livros cujo os títulos continham as seguintes palavras: “vídeo video tutorial aula saúde saude infográfico educac animação podcast ética Instalaç Bioinfo”.
-
-Os livros cadastrados errados, e indisponíveis foram removidos posteriormente.
-
-Os demais livros foram incluídos para a análise da pesquisa.
-
-
-
-### Método de criação do corpus
-
-De acordo com Yin (2015), o estudo de caso é utilizado para designar a análise de informação e a sua discussão em ciências sociais como a sociologia, a psicologia ou as ciências da educação. A pesquisa estudo de caso é uma das várias maneiras de realizar uma pesquisa nas ciências sociais, no nosso caso, optamos por este método por se tratar de um método qualitativo, capaz de nos dar informações para caracterizar o fenômeno da produção de materiais didáticos impressora para EAD.
-
-Na primeira fase do projeto os integrantes continuarão conduzindo pesquisas bibliográficas sobre a produção e análise de materiais didáticos impresso para EAD.
-
-Na segunda fase do projeto, cada integrante do grupo definirá o corpus de sua pesquisa, selecionando um subconjunto de livros que melhor represente a sua área de conhecimento pesquisada. Os corpora de livros analisados será divido em três corpus: os livros dos cursos de graduação a distância em Computação, História e Letras em Inglês, sob a responsabilidade de Eduardo, Paula e Camyle respectivamente. Por exemplo, livros que representam as áreas dos cursos de Computação, História e Letras em Inglês poderiam ser representados pelos materiais das disciplinas de “Introdução à Programação”, “Introdução aos Estudos Históricos” ou “Língua Inglesa: Práticas Discursivas do Cotidiano” respectivamente. Apesar dos cursos poderem possuírem livros de outras áreas, como disciplinas de Português Instrumental ou Matemática, esses livros não representam as áreas da pesquisa de cada integrante e, portanto, não serão adicionados ao corpus.1
-
-Após a definição dos corpora, os integrantes do grupo elaborarão um método padronizada de análise, em relação às principais teorias de Design Instrucional para produção de materiais didáticos impresso para EAD. Ressaltamos que todos os integrantes da pesquisa utilizarão esta metodologia em suas pesquisas individuais.
-
-Em seguida, a análise de cada corpus será realizada e os principais resultados serão apresentados e discutidos.
-
-#### Consulta de Materiais Didáticos no Sisuab
-
-A escolha dos materiais iniciou-se realizando uma Consulta de Materiais Didáticos no Sisuab com os seguintes critérios:
-
+![Consulta no SisUAB utilizando os parametros de busca](img/metodo-consulta-sisuab.png)
 
 <!-- 
 
@@ -221,14 +192,15 @@ Redes de Computadores
 Sistemas Multimídia
 --> 
 
-![metodo-consulta-sisuab](img/metodo-consulta-sisuab.png "Consulta no site do SisUAB")
+### Critérios de Inclusão e exclusão
 
-A pesquisa retornou 541 itens. Em seguida, os resultados foram copiadados, página a página, e salvos em uma planilha, que manteve associado os links para baixar os livros desejados.
+Essa consulta, realizada em Janeiro de 2015, retornou 541 resultados, sendo a maioria resultados indesejados, sendo necessário um processo para sua remoção.
 
+![Resultado da consulta retornando 541 itens.](img/metodo-consulta-resultado.png)
 
-![metodo-consulta-resultado](img/metodo-consulta-resultado.png "Resultado da consulta retornando 541 itens.")
+Todos os resultados foram copiadados, página a página, e salvos em uma planilha (resultados-da-consulta-sisuab.csv), que manteve associado os links para baixar os respectivos livros.
 
-Para remoção dos resultados indesejados, faz-se necessário remover os resultados relacionados ao formato do material (vídeo, animação, *podcast*, etc.) e a área do livro. A remoção foi realizada através da exclusão de resultados que continham palavras que caracterizam um resultado indesejado: ``vídeo, video, tutorial, aula, saúde, saude, infográfico, educac, animação, podcast, ética, Instalaç e Bioinfo''. A exclusão foi realizada através do seguinte comando, que criou uma nova planilha com os resultados filtrados:
+A remoção dos resultados indesejados foi através da identificação de palavras que os indentificassem nas linhas da planilha. Para essa pesquisa, as seguintes palavras identificavam resultados indesejados: ``vídeo, video, tutorial, aula, saúde, saude, infográfico, educac, animação, podcast, ética, Instalaç e Bioinfo''. A exclusão foi realizada através do seguinte comando, que cria uma nova planilha com os resultados filtrados:
 
 ```bash
 cat resultados-da-consulta-sisuab.csv | grep -v -i -e vídeo -e video -e tutorial \
@@ -236,9 +208,11 @@ cat resultados-da-consulta-sisuab.csv | grep -v -i -e vídeo -e video -e tutoria
 -e podcast -e ética -e Instalaç -e Bioinfo >  filtrados.csv 
 ```
 
-Esse processo removeu 375 linhas, deixando a nova planilha com apenas 166 resultados. Para manter o cunho ético da pesquisa, as instituições e os cursos de origem dos materiais foram ofuscadas.
+Esse processo removeu 375 linhas, deixando a nova planilha ("filtrados.csv") com apenas 166 resultados. Para manter o cunho ético da pesquisa, as instituições e os cursos de origem dos materiais foram ofuscadas.
 
 O processo de ofuscação consistiu em ordenar os resultados pelo nome da instituição e o curso, e substituir o seus valores por uma letra e um número respectivamente. Para possibilitar replicação da pesquisa, a planilha resultante desse processo foi nomeada "filtrados-e-ofuscados.csv", encontra-se disponível em: <http://dx.doi.org/10.5281/zenodo.47787>.
+
+Os livros cadastrados errados ou indisponíveis foram removidos posteriormente. 
 
 <!--  
 
@@ -252,9 +226,7 @@ A remoção completa dos resultados indesejados só é possível após a verific
 
 Durante os downloads, verificou-se que 13 arquivos estavam indisponíveis e não puderam ser salvos. Uma nova coluna na planilha foi adicionada registrando a situação de disponibilidade de cada entrada.
 
-Durante a exploração dos arquivos baixados, foi verificado que existiam arquivos duplicados. Um script foi elaborado para identificar os arquivos duplicados. Uma nova coluna "Erro" foi adicionada à planilha, e 16 arquivos duplicados foram registrados. O script entitulado `arquivos-duplicados.rb` encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47800>.
-
-Alguns arquivos baixados estavam corrompidos, outr
+Durante a exploração dos arquivos baixados, foi verificado que existiam arquivos duplicados. Um script (*arquivos-duplicados.rb*) foi elaborado para identificar os arquivos duplicados. Uma nova coluna "Erro" foi adicionada à planilha, e 16 arquivos duplicados foram registrados. O script encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47800>.
 
 A consistência de todos os demais arquivos foi verificada e registrada na coluna Erro na planilha. Os principais erros encontrados nos arquivos foram: não era um livro (animações, apenas capa, slides, lista de exercício ou vídeos), ou era de outra área, ou estava corrompido.
 
@@ -262,19 +234,6 @@ Um último passo foi a remoção das versões ou edições diferentes de um mesm
 
 No final desse processo 95 resultados foram marcados como indisponíveis, com erro ou duplicado. O *corpus* dessa pesquisa foi definido como sendo os 71 livros restantes.
 
-Para definição do *corpus* faz-se necessário remover todos os livros com 
-
-Para realizar análise dos materiais, é necessário selecionar t
-
-foi necessário baixar todos os livros da planilha, registrando 
-
-O banco de dados do SisUAB possui 
-
-Depois que um número significativo de resultados foram excluídos, 
-
-Após a exclusão dos 
-
-Em seguida foi iniciada uma etapa 
 
 ### Critérios para avaliar as técnicas
 
