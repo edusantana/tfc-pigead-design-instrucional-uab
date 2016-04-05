@@ -1,4 +1,5 @@
 ---
+lang: pt-BR
 output: 
   pdf_document: 
     latex_engine: xelatex
@@ -137,17 +138,15 @@ O destaque do código consiste em apresentar os códigos fonte com destaque (cor
 - Como a implementação das técnicas de DI são influenciadas pelo tipo da disciplina?
 
 
-## Definição do corpus
+## Definição do corpus da área de Computação
 
-Os corpora dos livros foram definidos através de um processo sistemático de busca, para representar os livros produzidos para cada área pesquisada:
+O corpus dos livros foi definido através de um processo sistemático de busca, para representar os livros produzidos para a área pesquisada:
 
-- Definição de quais cursos representam a área e elaboração do seu string de busca.
+- Definição de quais cursos representam a área e elaboração do seu *string* de busca.
 - Definição de quais disciplinas representam a área pesquisa e elaboração do seu string de busca.
-- Elaboração de critérios de inclusão de exclusão de livros.
+- Elaboração de critérios de exclusão e inclusão de livros.
 
-## Corpus da área de Computação
-
-O corpus de computação foi definido como sendo um subconjunto dos resultados de uma busca no SisUAB, que represente os materiais didáticos das disciplinas de computação, nos cursos de computação. Encontrar os parâmetros (*strings*) de busca que retorne os resultados desejados é um processo incremental, sendo refinados durante cada iteração de tentativa e avaliação.
+O corpus de computação foi definido como sendo um subconjunto dos resultados de uma busca no SisUAB, que represente os materiais didáticos das disciplinas de computação, nos cursos de computação (*critério de inclusão*). Encontrar os parâmetros (*strings*) de busca que retorne os resultados desejados é um processo incremental, sendo refinados durante cada iteração de tentativa e avaliação.
 
 A área de computação contempla vários cursos: Ciências da Computação, Informática, Sistemas de Informação, Tecnologia em Análise e Desenvolvimento de Sistemas. O *string* de busca do curso deve contemplar todos esses cursos.
 
@@ -192,7 +191,7 @@ Redes de Computadores
 Sistemas Multimídia
 --> 
 
-### Critérios de Inclusão e exclusão
+### Removendo resultados indesejados
 
 Essa consulta, realizada em Janeiro de 2015, retornou 541 resultados, sendo a maioria resultados indesejados, sendo necessário um processo para sua remoção.
 
@@ -210,9 +209,9 @@ cat resultados-da-consulta-sisuab.csv | grep -v -i -e vídeo -e video -e tutoria
 
 Esse processo removeu 375 linhas, deixando a nova planilha ("filtrados.csv") com apenas 166 resultados. Para manter o cunho ético da pesquisa, as instituições e os cursos de origem dos materiais foram ofuscadas.
 
-O processo de ofuscação consistiu em ordenar os resultados pelo nome da instituição e o curso, e substituir o seus valores por uma letra e um número respectivamente. Para possibilitar replicação da pesquisa, a planilha resultante desse processo foi nomeada "filtrados-e-ofuscados.csv", encontra-se disponível em: <http://dx.doi.org/10.5281/zenodo.47787>.
+O processo de ofuscação consistiu em ordenar os resultados pelo nome da instituição e o curso, e substituir o seus valores por uma letra e um número respectivamente. Para possibilitar replicação da pesquisa, a planilha resultante desse processo foi nomeada "filtrados-e-ofuscados.csv" e encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47787>.
 
-Os livros cadastrados errados ou indisponíveis foram removidos posteriormente. 
+Os livros indisponíveis ou cadastrados errados foram removidos posteriormente. 
 
 <!--  
 
@@ -220,34 +219,32 @@ Erros: Arquivos corrompidos, arquivos indisponíveis, arquivos trocados, texto i
 
 -->
 
-### Baixando e excluindo materiais duplicados ou com erros
+
+### Removendo resultados indisponíveis, duplicados ou com erros
 
 A remoção completa dos resultados indesejados só é possível após a verificação dos conteúdos dos arquivos. Portanto as próximas etapas foram iniciar os downloads dos arquivos e verificar os conteúdos.
 
-Durante os downloads, verificou-se que 13 arquivos estavam indisponíveis e não puderam ser salvos. Uma nova coluna na planilha foi adicionada registrando a situação de disponibilidade de cada entrada.
+Durante os downloads, verificou-se que 13 livros estavam indisponíveis e não puderam ser baixados. Para registrar essa situação uma nova coluna foi adicionada na planilha contendo a situação de disponibilidade de cada resultado.
 
-Durante a exploração dos arquivos baixados, foi verificado que existiam arquivos duplicados. Um script (*arquivos-duplicados.rb*) foi elaborado para identificar os arquivos duplicados. Uma nova coluna "Erro" foi adicionada à planilha, e 16 arquivos duplicados foram registrados. O script encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47800>.
+Durante uma exploração dos arquivos baixados, foi verificado que existiam arquivos duplicados. Um script (*arquivos-duplicados.rb*) foi elaborado para identificar os arquivos duplicados. Uma nova coluna "Erro" foi adicionada à planilha, e 16 arquivos duplicados foram registrados. O script encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47800>.
 
-A consistência de todos os demais arquivos foi verificada e registrada na coluna Erro na planilha. Os principais erros encontrados nos arquivos foram: não era um livro (animações, apenas capa, slides, lista de exercício ou vídeos), ou era de outra área, ou estava corrompido.
+As consistências dos demais arquivos foram verificadas e registradas na coluna "Erro", adicionada anteriormente. Os principais erros encontrados nos arquivos foram: não era um livro (animações, apenas capa, slides, lista de exercício ou vídeos), ou era de outra área, ou estava corrompido.
 
-Um último passo foi a remoção das versões ou edições diferentes de um mesmo livro. Alguns livros possuíam mais de uma edição, enquanto outros possuíam duas versões (uma para impressão e outra para distribuição na Internet). Esse é um processo manual e demorado, para agilizá-lo a planilha foi ordenada por instituição e curso, e cada livro era comparado com os demais da mesma instituição.
+O último passo foi a remoção das versões duplicadas ou edições diferentes de um mesmo livro. Após uma exploração, foi verificado que alguns livros possuíam mais de uma edição, enquanto outros possuíam duas versões (uma para impressão e outra para distribuição na Internet). Para que cada livro contribua com apenas uma versão e uma edicação, foi decidido por excluir as edições mais novas e as versões para Web. Houveram casos que existiam versões diagramadas e não diargranadas (escritas no Word), nessas situações a versão diagramada era escolhida e a outra era descartada.
 
-No final desse processo 95 resultados foram marcados como indisponíveis, com erro ou duplicado. O *corpus* dessa pesquisa foi definido como sendo os 71 livros restantes.
+Esse processo de identificação de versões e edições é manual e demorado, para agilizá-lo a planilha foi ordenada por instituição e curso, e cada livro era comparado com os demais da mesma instituição.
+
+No final do processo 95 resultados foram marcados como indisponíveis, com erro ou duplicado. O *corpus* dessa pesquisa foi definido como sendo os 71 livros restantes.
 
 
-### Critérios para avaliar as técnicas
-
-1. O recurso não foi utilizado.
-2. O recurso foi utilizado raramente, quase imperceptível.
-3. A utilização do recurso foi perceptível, mas não o suficiente para ser percebido como uma prática parcialmente adotada na obra.
-4. O recurso foi adotado parcialmente na obra. O recurso pode ter sido bem adotado em alguns capítulos, mas foi insuficiente para a obra inteira.
-5. O recurso foi adotado distribuído de forma suficiente por toda a obra.
 
 Ilustração
     Código não é ilustração
     Tela do software mostrando código sim.
 
-### Piloto
+## Piloto
+
+Para elaborar e calibrar os instrumentos de coleta de dados e avaliação, uma piloto foi conduzido com dois livros de cada instituição selecionados, através de sorteios aleatórios, para serem analisados.
 
 #### Como o piloto foi conduzido
     Seleção das amostras dos livros
@@ -259,6 +256,30 @@ Ilustração
             remove versão mais nova
                 As vezes são lançados novos livros mudando apenas a capa, mantendo a mesma ficha técnina, inclusive com  o mesmo ISBN.
                 160-005, quando os dois livros diferem no design, utilizar o mais recente (mais similar aos da instituição), pois pode denotar reutilização de material.
+
+## Métrica e medição das implementações das técnicas
+
+
+
+### Escala para avaliar as técnicas
+
+Para facilitar a análise, foi determinado que o uso de todas as técnicas seriam avaliadas através de uma escala de 1 a 5:
+
+1. O recurso não foi utilizado.
+2. O recurso foi utilizado raramente, quase imperceptível.
+3. A utilização do recurso foi perceptível, mas não o suficiente para ser percebido como uma prática parcialmente adotada na obra.
+4. O recurso foi adotado parcialmente na obra. O recurso pode ter sido bem adotado em alguns capítulos, mas foi insuficiente para a obra inteira.
+5. O recurso foi adotado e distribuído de forma suficiente por toda a obra.
+
+Escala | Utilização         | Distribuição
+:-----:| :----------------: | :-------------------------:
+1      | Nunca              | 0% dos capítulos
+2      | Raramente          | Até 20% dos capítulos
+3      | Frequente          | De 20% a 50% dos capítulos
+4      | Bastante frequênte | De 50% a 75% dos capítulos
+5      | Bastante frequênte | De 75% a 100% dos capítulos
+
+: Escala de avaliação segundo a utilização e distribuição da técnica.
 
 #### Como as técnicas foram implementadas e como medi-las?
     Objetivos de Aprendizagem
@@ -354,7 +375,7 @@ Ilustração
 - Como foram implementadas as técnicas de design instrucional nos livros de computação depositados no SisUAB?
 
 
-## Referências
+# Referências
 
 ABREU-FIALHO, Ana Paula; BARRETO, Cristine Costa. Design Instrucional versátil para materiais impressos – contemplando diversos perfis de aprendiz e aprendizagem. 2008. Disponível em: <http://www.nebad.uerj.br/publicacoes/artigos_em_anais_de_congressos/design_instrucional_%20versatil.pdf>. Acesso em: 5 nov. 2015.
 
