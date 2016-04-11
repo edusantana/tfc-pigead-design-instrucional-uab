@@ -15,10 +15,12 @@ csl: associacao-brasileira-de-normas-tecnicas-eceme.csl
 
 ### Objetivo geral
 
-Analisar a implementação do Design Instrucional de materiais didáticos (impressos) para EAD em uma determinada área do conhecimento, através dos livros criados e depositados por diferentes IES (Instituições do Ensino Superior) no SisUAB.
+- Compreender como foi implementado o Design Instrucional de materiais didáticos da área de Computação na EAD no Brasil, através dos livros depositados por diferentes IES (Instituições do Ensino Superior) no SisUAB.
 
 ### Objetivos específicos
-- Investigar a implementação do Design Instrucional do material didático impresso para os cursos de licenciatura em Computação na modalidade a distância; (Eduardo de Santana Medeiros Alexandre)
+
+- Apresentar, explicar e sumarizar como as técnicas de Design Instrucional foram implementadas nos materiais didáticos específicos de Computação na EAD no Brasil;
+
 
 ## Justificativa
 
@@ -52,54 +54,56 @@ Recomenda-se que, além de claramente redigidas, essa técnica seja empregada no
 
 O conceito de objetivo costuma ser confundido com o de *meta*, portanto faz-se necessário compreender sua distinção. A meta é "uma  descrição, em termos bastante gerais, do que o professor pretende fazer ao longo de uma aula (ou de um curso)" [@aula2 p. 46]. A meta é focada na emissão do professor, o que ele irá apresentar.
 
-## Linguaguem dialógica
+### Linguaguem dialógica
 
 A utilização da técnica de linguagem dialógica possibilita diminuir dificuldades de compreensão do texto pelos alunos, proporcionando um sentimento de proximidade com o autor do texto, e a percepção de que existem pessoas preocupadas com o seu aprendizado [@aula2 p. 83-85]. Esse recurso é considerado essencial por alguns pesquisadores [@Silva2013 p. 65].
 
 A utilização da linguagem dialógica nos materiais para educação a distância é um dos pontos de maior dificuldade dos professores do presencial que se propõem escrever para EAD [@aula2 p. 83].
 
-## Atividades de autoavaliação
+Pendente: Trocar o nós por você não torna o texto dialógico. Exemplo: Neste primeiro capítulo *você* verá como realizar uma operação de exponenciação.
+
+### Atividades de autoavaliação
 
 Nos materiais para EAD, as atividades de autoavaliação proporcionam oportunidades para os alunos consolidarem o seu processo de aprendizagem [@Silva2013 p. 66]. Recomanda-se utilizar atividades em vez de apresentações de princípios, generalizações e interpretações importantes [@aula2 p. 145], pois envolver os alunos com atividades escritas reduz-se as chances deles tornarem-se passivos e entediados durante o estudo [@Wolfram97 p. 80].
 
 
-## Espaço para realização das atividades
+### Espaço para realização das atividades
 
 Quando o material didático é diagramado com espaço para as respostas das atividades, os alunos apresentam-se mais propensos a respondê-las. Quanto menor o esforço mental para realizá-las maior será a proporção de alunos que irão respondê-las. Uma pesquisa indica que quando o espaço oferecido é de uma lacuna pequena, como questões de verdadeiro ou falso, mais de 80% dos alunos respondem, enquanto o espaço é maior, mesmo que a resposta seja curta, de menos de %50% dos alunos respondem [@aula2 p. 211].
 
-## Ilustrações
+### Ilustrações
 
 Recomenda-se que a ilustrações inseridas nos materiais didáticos para EAD possuam uma função didática, e não apenas ilustrativa [@Preti2010 p. 113]. De forma geral, as ilustrações são melhor utilizadas nos seguintes contextos: a) algo é muito abstrato para ser explicada em palavras; b) algo é muito complexo para ser explicada em palavras; c) deseja-se que o aluno observe mais de uma ideia ao mesmo tempo [@Freeman2005 p. 111]. Além desses contextos, as ilustrações podem ser utilizadas buscando certos propósitos.
 
 As ilustrações podem ser utilizadas com os seguintes propósitos: mostrar como algo parece, mostrar como algo funciona, apresentar relacionamentos quantitativos, exibir mudanças ao longo do tempo, apresentar relacionamentos ou padrões, apresentar estrutura, apresentar sequência ou processo, simplificar, motivar, causar emoção ou sentimento, dar ênfase, divertir ou decorar [@Freeman2005 p. 112].
 
-## Referências a conteúdos multimídia
+### Referências a conteúdos multimídia
 
 Para completar a leitura dos alunos, os materiais didáticos podem ofertar conteúdos multimídia através de links para sites, vídeos, animações, simulações, etc [@Silva2013 p. 66].
 
-## Resumos
+### Resumos
 
 As seções de resumos, geralmente no final das unidades, tem o propósito de lembrar os alunos o que eles aprenderam [@Freeman2005 p. 82], destacar as ideias  centrais  do  texto  e  fazer  ligações  com  os  objetivos de aprendizagem estabelecidos [@Silva2013 p. 66].
 
 
-## Informações periféricas sem quebrar fluxo
+### Informações periféricas sem quebrar fluxo
 
 As informações periféricas são recursos que apresentam informações fora do fluxo central do texto (sem interferir na leitura sequencial), possibilitando os alunos trilharem camimhos diferentes de leituras, e favorencendo diferentes perfis de aprendizagem [@AbreuFialho2008].
 
 
 As informações periféricas complementam o conteúdo pricipal do texto, costumam serem  utilizadas para aprofundar certos pontos da aula, apresentar curiosidades, apresentar informações a alunos menos preparado para o estudo daquela aula, ressaltar informações e conxtextualizar através de outras mídias [@Silva2013 p. 68]. 
 
-## Lista de conteúdo por unidade
+### Lista de conteúdo por unidade
 
 Esse recurso consiste em apresentar um minisumário por unidade de estudo, para que o aluno possa ver antecipadamente os conteúdos que serão abordados por ela, as vezes também apresenta-se através de uma lista de conceitos [@Freeman2005 p. 132].
 
-## Glossário
+### Glossário
 
 O glossário tem o propósito de "facilitar a clareza e compreensão do texto, sem  que o aluno dependa de outra pessoa (professor, tutor, monitor) para  esclarecer o significado de algum termo mais preciso" [@Silva2013 p. 66], ou apenas para explicar o significado de palavras chaves [@Freeman2005 p. 133].
 
 Recomenda-se que caso as explicações dos termos sejam breves, elas sejam apresentadas próximo a eles, caso contrário, podem ser colocadas no final do material ou unidade [@Preti2010 p. 106].
 
-## Destaque do código
+### Destaque do código
 
 O destaque do código consiste em apresentar os códigos fonte com destaque (cor, negrito ou itálico) de acordo com a sintaxe da linguagem do código apresentada. Esse recurso, praticamente essencial em ambientes de programação, possibilita um aumento de 25% na legibilidade do código, tornando-o mais fácil de ser compreendido [@Sarkar2015].
 
@@ -137,8 +141,9 @@ O destaque do código consiste em apresentar os códigos fonte com destaque (cor
 - Como as técnicas de design instrucional variam numa mesma instituição?
 - Como a implementação das técnicas de DI são influenciadas pelo tipo da disciplina?
 
+## O Corpus
 
-## Definição do corpus da área de Computação
+### Definindo o Corpus de Computação
 
 O corpus dos livros foi definido através de um processo sistemático de busca, para representar os livros produzidos para a área pesquisada:
 
@@ -191,15 +196,15 @@ Redes de Computadores
 Sistemas Multimídia
 --> 
 
-### Removendo resultados indesejados
+### Removendo resultados irrelevantes
 
-Essa consulta, realizada em Janeiro de 2015, retornou 541 resultados, sendo a maioria resultados indesejados, sendo necessário um processo para sua remoção.
+Essa consulta, realizada em Janeiro de 2015, retornou 541 resultados, sendo a maioria resultados irrelevantes, sendo necessário um processo para sua remoção.
 
 ![Resultado da consulta retornando 541 itens.](img/metodo-consulta-resultado.png)
 
 Todos os resultados foram copiadados, página a página, e salvos em uma planilha (resultados-da-consulta-sisuab.csv), que manteve associado os links para baixar os respectivos livros.
 
-A remoção dos resultados indesejados foi através da identificação de palavras que os indentificassem nas linhas da planilha. Para essa pesquisa, as seguintes palavras identificavam resultados indesejados: ``vídeo, video, tutorial, aula, saúde, saude, infográfico, educac, animação, podcast, ética, Instalaç e Bioinfo''. A exclusão foi realizada através do seguinte comando, que cria uma nova planilha com os resultados filtrados:
+A remoção dos resultados irrelevantes foi através da identificação de palavras que os indentificassem nas linhas da planilha. Para essa pesquisa, as seguintes palavras identificavam esses resultados: ``vídeo, video, tutorial, aula, saúde, saude, infográfico, educac, animação, podcast, ética, Instalaç e Bioinfo''. A exclusão foi realizada através do seguinte comando, que cria uma nova planilha com os resultados filtrados:
 
 ```bash
 cat resultados-da-consulta-sisuab.csv | grep -v -i -e vídeo -e video -e tutorial \
@@ -207,9 +212,18 @@ cat resultados-da-consulta-sisuab.csv | grep -v -i -e vídeo -e video -e tutoria
 -e podcast -e ética -e Instalaç -e Bioinfo >  filtrados.csv 
 ```
 
-Esse processo removeu 375 linhas, deixando a nova planilha ("filtrados.csv") com apenas 166 resultados. Para manter o cunho ético da pesquisa, as instituições e os cursos de origem dos materiais foram ofuscadas.
+Esse processo removeu 375 linhas (69%), deixando a nova planilha ("filtrados.csv") com apenas 166 resultados (31%). Para manter o cunho ético da pesquisa, as instituições e os cursos de origem dos materiais foram ofuscadas.
+
+
+Resultados   | Quantidade | Percentual
+:----------: | :---------:| :--------:
+Total        | 541        | 100%
+Irrelevantes | 375        | 70%
+Filtrados    | 166        | 30%
+
 
 O processo de ofuscação consistiu em ordenar os resultados pelo nome da instituição e o curso, e substituir o seus valores por uma letra e um número respectivamente. Para possibilitar replicação da pesquisa, a planilha resultante desse processo foi nomeada "filtrados-e-ofuscados.csv" e encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47787>.
+
 
 Os livros indisponíveis ou cadastrados errados foram removidos posteriormente. 
 
@@ -236,15 +250,22 @@ Esse processo de identificação de versões e edições é manual e demorado, p
 
 No final do processo 95 resultados foram marcados como indisponíveis, com erro ou duplicado. O *corpus* dessa pesquisa foi definido como sendo os 71 livros restantes.
 
+Resultados        | Quantidade | Percentual
+:----------------:| :---------:| :--------:
+Filtrados         | 166        | 100%
+Indisponíveis     | 13         | 7,83%
+Erro ou Duplicado | 82         | 49,40%
+Corpus selecionado| 71         | 42,77%
+
 
 
 Ilustração
     Código não é ilustração
     Tela do software mostrando código sim.
 
-## Piloto
+### Piloto
 
-Para elaborar e calibrar os instrumentos de coleta de dados e avaliação, uma piloto foi conduzido com dois livros de cada instituição selecionados, através de sorteios aleatórios, para serem analisados.
+Para elaborar e calibrar os instrumentos de coleta de dados e avaliação, uma piloto foi conduzido com dois livros de cada instituição (sorteados aleatoriamente) para serem analisados.
 
 #### Como o piloto foi conduzido
     Seleção das amostras dos livros
@@ -254,12 +275,8 @@ Para elaborar e calibrar os instrumentos de coleta de dados e avaliação, uma p
         duplicados
         similares
             remove versão mais nova
-                As vezes são lançados novos livros mudando apenas a capa, mantendo a mesma ficha técnina, inclusive com  o mesmo ISBN.
-                160-005, quando os dois livros diferem no design, utilizar o mais recente (mais similar aos da instituição), pois pode denotar reutilização de material.
 
-## Métrica e medição das implementações das técnicas
-
-
+### Métrica
 
 ### Escala para avaliar as técnicas
 
@@ -271,13 +288,13 @@ Para facilitar a análise, foi determinado que o uso de todas as técnicas seria
 4. O recurso foi adotado parcialmente na obra. O recurso pode ter sido bem adotado em alguns capítulos, mas foi insuficiente para a obra inteira.
 5. O recurso foi adotado e distribuído de forma suficiente por toda a obra.
 
-Escala | Utilização         | Distribuição
-:-----:| :----------------: | :-------------------------:
-1      | Nunca              | 0% dos capítulos
-2      | Raramente          | Até 20% dos capítulos
-3      | Frequente          | De 20% a 50% dos capítulos
-4      | Bastante frequênte | De 50% a 75% dos capítulos
-5      | Bastante frequênte | De 75% a 100% dos capítulos
+Escala |  Contempla de forma suficiente
+:-----:|  :-----------------------------:
+1      |  Não contempla
+2      |  Até 25% da obra
+3      |  De 25% a 50% da obra
+4      |  De 50% a 75% da obra
+5      |  De 75% a 100% da obra
 
 : Escala de avaliação segundo a utilização e distribuição da técnica.
 
