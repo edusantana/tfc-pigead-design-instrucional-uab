@@ -19,7 +19,7 @@ csl: associacao-brasileira-de-normas-tecnicas-eceme.csl
 
 ### Objetivos específicos
 
-- Apresentar, explicar e sumarizar como as técnicas de Design Instrucional foram implementadas nos materiais didáticos específicos de Computação na EAD no Brasil;
+- Apresentar, explicar e sumarizar como as técnicas de Design Instrucional foram implementadas nos materiais didáticos específicos de Computação na EAD no Brasil.
 
 
 ## Justificativa
@@ -50,7 +50,7 @@ Nessa seção são apresentadas técnicas de Desgin Instrucional para produção
 
 Os objetivos de aprendizagem "estabelecem prioridades no conteúdo de uma aula e definem exatamente o que o aluno deverá ser capaz de executar ao final de seu estudo" [@aula2 p. 48]. O foco do objetivo está no que o aluno será capaz de realizar.
 
-Recomenda-se que, além de claramente redigidas, essa técnica seja empregada no início das unidades didáticas [@Silva2013 p. 64]. Quando os objetivos são redigidos de forma mensurável é possível que os próprios alunos sejam capazes de verificar se atingiram os objetivos da unidade [@Wolfram97 p. 56].
+Recomenda-se que, além de claramente redigidas, essa técnica seja empregada no início dos capítulos (ou aulas) [@Silva2013 p. 64]. Quando os objetivos são redigidos de forma mensurável é possível que os próprios alunos sejam capazes de verificar se atingiram os objetivos da aula [@Wolfram97 p. 56].
 
 O conceito de objetivo costuma ser confundido com o de *meta*, portanto faz-se necessário compreender sua distinção. A meta é "uma  descrição, em termos bastante gerais, do que o professor pretende fazer ao longo de uma aula (ou de um curso)" [@aula2 p. 46]. A meta é focada na emissão do professor, o que ele irá apresentar.
 
@@ -58,9 +58,10 @@ O conceito de objetivo costuma ser confundido com o de *meta*, portanto faz-se n
 
 A utilização da técnica de linguagem dialógica possibilita diminuir dificuldades de compreensão do texto pelos alunos, proporcionando um sentimento de proximidade com o autor do texto, e a percepção de que existem pessoas preocupadas com o seu aprendizado [@aula2 p. 83-85]. Esse recurso é considerado essencial por alguns pesquisadores [@Silva2013 p. 65].
 
-A utilização da linguagem dialógica nos materiais para educação a distância é um dos pontos de maior dificuldade dos professores do presencial que se propõem escrever para EAD [@aula2 p. 83].
+A utilização da linguagem dialógica nos materiais para educação a distância é um dos pontos de maior dificuldade dos professores do presencial que se propõem escrever para EAD [@aula2 p. 83] e por vezes acabam utilizando uma linguagem científica nos textos.
 
-Pendente: Trocar o nós por você não torna o texto dialógico. Exemplo: Neste primeiro capítulo *você* verá como realizar uma operação de exponenciação.
+O diálogo nos materiais didáticos podem ser utilizados para estimular o aprendizagem baseado em conhecimentos prévios, motivar reflexões sobre o conteúdo, persuadir o aluno a continuar estudando os conteúdos, envolver o aluno oferecendo-o navegações para avançar ou retrocer no texto e convidar o aluno a reflexões compartilhadas através de perguntas retóricas [@Ivanda2011]. 
+
 
 ### Atividades de autoavaliação
 
@@ -83,7 +84,7 @@ Para completar a leitura dos alunos, os materiais didáticos podem ofertar conte
 
 ### Resumos
 
-As seções de resumos, geralmente no final das unidades, tem o propósito de lembrar os alunos o que eles aprenderam [@Freeman2005 p. 82], destacar as ideias  centrais  do  texto  e  fazer  ligações  com  os  objetivos de aprendizagem estabelecidos [@Silva2013 p. 66].
+As seções de resumos, geralmente no final dos capítulos, tem o propósito de lembrar os alunos o que eles aprenderam [@Freeman2005 p. 82], destacar as ideias  centrais  do  texto  e  fazer  ligações  com  os  objetivos de aprendizagem estabelecidos [@Silva2013 p. 66].
 
 
 ### Informações periféricas sem quebrar fluxo
@@ -109,6 +110,17 @@ O destaque do código consiste em apresentar os códigos fonte com destaque (cor
 
 
 # Método
+
+
+## Condução do Piloto
+
+Para elaborar e calibrar todos os instrumentos da pesquisa um piloto foi conduzido inicialmente com um subconunto representativo dos livros escolhidos aleatoriamente.
+
+Durante a execução do piloto foram identificados diversos problemas no repositório SisUAB: indisponibilidade de livros, arquivos corrompidos ou errados e livros duplicados. O corpus da pesquisa foi definido de forma sistemática, excluindo os livros que apresentavam algum problema.
+
+A verificação da utilização das técnicas foram foi agilizada com a elaboração e utilização de um formulário, que sofreu diversas melhorias durante o processo. O formulário final será apresentado mais adiante.
+
+A métrica e método de análise foram desenvolvidos durante o piloto para nortear a realização da pesquisa.
 
 ## Perguntas da pesquisa
 
@@ -141,27 +153,29 @@ O destaque do código consiste em apresentar os códigos fonte com destaque (cor
 - Como as técnicas de design instrucional variam numa mesma instituição?
 - Como a implementação das técnicas de DI são influenciadas pelo tipo da disciplina?
 
-## O Corpus
+## O processo de definição do Corpus
 
-### Definindo o Corpus de Computação
+O processo de definição do *corpus* da pesquisa conduzido de forma sistemática conforme apresentadas na imagem seguinte e explicadas posteriomente.
 
-O corpus dos livros foi definido através de um processo sistemático de busca, para representar os livros produzidos para a área pesquisada:
+![Processo de definição do Corpus](img/corpus-fluxo.png)
 
-- Definição de quais cursos representam a área e elaboração do seu *string* de busca.
-- Definição de quais disciplinas representam a área pesquisa e elaboração do seu string de busca.
-- Elaboração de critérios de exclusão e inclusão de livros.
+### Escolha dos cursos e disciplinas
 
-O corpus de computação foi definido como sendo um subconjunto dos resultados de uma busca no SisUAB, que represente os materiais didáticos das disciplinas de computação, nos cursos de computação (*critério de inclusão*). Encontrar os parâmetros (*strings*) de busca que retorne os resultados desejados é um processo incremental, sendo refinados durante cada iteração de tentativa e avaliação.
+A busca dos materias didáticos para análise está associada às disciplinas dos cursos ofertados pelas instituições vinculadas à UAB, e que tiveram seus materiais publicados no SisUAB. A busca por materiais didáticos no SisUAB permite retornar resultados por várias características, inclusive por curso e disciplina -- abordagem utilizada nessa pesquisa.
 
-A área de computação contempla vários cursos: Ciências da Computação, Informática, Sistemas de Informação, Tecnologia em Análise e Desenvolvimento de Sistemas. O *string* de busca do curso deve contemplar todos esses cursos.
+Para essa pesquisa desejava-se localizar livros específicos da área de computação, produzidos por cursos da mesma área. 
+As disciplinas foram agrupadas por categorias -- para faciliar análise e seleção do *corpus* -- e apresentadas na tabela a seguir:
 
-O seguinte *string* final de busca foi elaborado para representar os cursos: “informática computação informação sistema”.
+Categoria           | Disciplinas contempladas
+:------------------:| :-------------------------------------------------------------------------------------------------
+Programação         | Contempla as disciplinas de programação e algoritmos.
+Sistemas            | Contempla diversas disciplinas como engenharia de software, análise de sistemas, sistemas operacionais etc.
+Banco de Dados      | Contempla as disciplinas de banco de dados. 
+Redes               | Contempla as disciplinas de redes. 
+Arquitetura         | Contempla as disciplinas de arquitetura de computadores ou introdução a computação.
+Estrutura de Dados  | Contempla as disciplinas de estrutura de dados, pesquisa e ordenação de dados ou complexidade de algoritmos.
 
-As disciplinas escolhidas para representar a área de computação foram: Linguagem de Programação, Introdução a Algoritmo, Sistemas Operacionais, Engenharia de Software, Redes de computadores, Estrutura de Dados, Banco de Dados e Arquitetura de Computadores.
-
-O *string* final de busca elaborado para representar as disciplinas foi: “Algoritmo Programação Sistema Software Programa Dados Computação Informática Computador”. 
-
-![Consulta no SisUAB utilizando os parametros de busca](img/metodo-consulta-sisuab.png)
+A seleção exata de quais cursos e discipinas serão contempladas depende do resultado da busca e sua disponibilidade.
 
 <!-- 
 
@@ -196,15 +210,33 @@ Redes de Computadores
 Sistemas Multimídia
 --> 
 
-### Removendo resultados irrelevantes
 
-Essa consulta, realizada em Janeiro de 2015, retornou 541 resultados, sendo a maioria resultados irrelevantes, sendo necessário um processo para sua remoção.
+### Elaboração e realização da busca
+
+Pare realização de uma busca é necessário elaborar um *string* (ou parâmetros) de busca que irá retornar os resultados que se procura. Encontrar os parâmetros de busca que retorne os resultados desejados é um processo incremental, sendo refinados durante cada iteração de busca e avaliação.
+
+A área de computação contempla vários cursos: Ciências da Computação, Informática, Sistemas de Informação, Tecnologia em Análise e Desenvolvimento de Sistemas, etc. O *string* de busca do curso deve contemplar todos esses cursos.
+
+O seguinte *string* final de busca foi elaborado para representar os cursos: “informática computação informação sistema”. Percebe-se que todos os cursos listados contém pelo menos uma das palavras do *string* da busca, sendo portanto contemplado durante a busca.
+
+As disciplinas escolhidas para representar a área de computação foram: Linguagem de Programação, Introdução a Algoritmo, Sistemas Operacionais, Análise de Sistemas, Engenharia de Software, Redes de computadores, Estrutura de Dados, Banco de Dados e Arquitetura de Computadores e Introdução a Computação.
+
+O *string* final de busca elaborado para representar as disciplinas foi: “Algoritmo Programação Sistema Software Programa Dados Computação Informática Computador”. De forma similar, percebe-se que todas as disciplinas serão contempladas pelo parâmetro de busca.
+
+A realização da busca consiste em utilizar os parâmetros de busca no SisUAB, conforme pode ser visto na imagem a seguir.
+
+![Consulta no SisUAB utilizando os parametros de busca](img/metodo-consulta-sisuab.png)
+
+Essa consulta, realizada em Janeiro de 2015, retornou 541 resultados, sendo em sua maioria resultados irrelevantes que serão desconsiderados na etapa de *filtragrem*. Todos os resultados foram copiadados, página a página, e salvos em uma planilha, mantendo associados os links para baixar os respectivos livros. 
 
 ![Resultado da consulta retornando 541 itens.](img/metodo-consulta-resultado.png)
 
-Todos os resultados foram copiadados, página a página, e salvos em uma planilha (resultados-da-consulta-sisuab.csv), que manteve associado os links para baixar os respectivos livros.
 
-A remoção dos resultados irrelevantes foi através da identificação de palavras que os indentificassem nas linhas da planilha. Para essa pesquisa, as seguintes palavras identificavam esses resultados: ``vídeo, video, tutorial, aula, saúde, saude, infográfico, educac, animação, podcast, ética, Instalaç e Bioinfo''. A exclusão foi realizada através do seguinte comando, que cria uma nova planilha com os resultados filtrados:
+### Filtragem
+
+A etapa de filtragem consiste em descartar os resultados irrelevantes. Nessa pesquisa ela foi realizada excluindo resultados que não aparentavam ser livros específicos de computação, os resultados dessa categoria incluíam vídeos, animações, conteúdos multidiciplinar etc.
+
+Para essa pesquisa, as seguintes palavras identificavam os resultados irrelevantes: ``vídeo, video, tutorial, aula, saúde, saude, infográfico, educac, animação, podcast, ética, Instalaç e Bioinfo''. A exclusão dos resultados foi realizada através do seguinte comando no linux, que cria uma nova planilha com os resultados filtrados:
 
 ```bash
 cat resultados-da-consulta-sisuab.csv | grep -v -i -e vídeo -e video -e tutorial \
@@ -212,7 +244,7 @@ cat resultados-da-consulta-sisuab.csv | grep -v -i -e vídeo -e video -e tutoria
 -e podcast -e ética -e Instalaç -e Bioinfo >  filtrados.csv 
 ```
 
-Esse processo removeu 375 linhas (69%), deixando a nova planilha ("filtrados.csv") com apenas 166 resultados (31%). Para manter o cunho ético da pesquisa, as instituições e os cursos de origem dos materiais foram ofuscadas.
+Esse processo removeu 375 linhas (70%), deixando a nova planilha ("filtrados.csv") com apenas 166 resultados (30%). Para manter o cunho ético da pesquisa, as instituições e os cursos de origem dos materiais foram ofuscadas.
 
 
 Resultados   | Quantidade | Percentual
@@ -221,11 +253,9 @@ Total        | 541        | 100%
 Irrelevantes | 375        | 70%
 Filtrados    | 166        | 30%
 
-
 O processo de ofuscação consistiu em ordenar os resultados pelo nome da instituição e o curso, e substituir o seus valores por uma letra e um número respectivamente. Para possibilitar replicação da pesquisa, a planilha resultante desse processo foi nomeada "filtrados-e-ofuscados.csv" e encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47787>.
 
-
-Os livros indisponíveis ou cadastrados errados foram removidos posteriormente. 
+Os livros indisponíveis ou cadastrados errados foram removidos em etapa posteriormente. 
 
 <!--  
 
@@ -233,12 +263,18 @@ Erros: Arquivos corrompidos, arquivos indisponíveis, arquivos trocados, texto i
 
 -->
 
+### Download do materiais
 
-### Removendo resultados indisponíveis, duplicados ou com erros
+Durante a etapa de *download* de materiais todos os resultados filtrados foram baixados e renomeados com um pré-fixo correspondente a sua posição na planilha, para facilitar a identificação.
 
-A remoção completa dos resultados indesejados só é possível após a verificação dos conteúdos dos arquivos. Portanto as próximas etapas foram iniciar os downloads dos arquivos e verificar os conteúdos.
+Verificou-se que 13 links para baixar os materias do SisUAB estavam indisponíveis impossibilitando o seu *download*. Para registrar essa situação uma nova coluna foi adicionada na planilha contendo a situação de disponibilidade de cada resultado.
 
-Durante os downloads, verificou-se que 13 livros estavam indisponíveis e não puderam ser baixados. Para registrar essa situação uma nova coluna foi adicionada na planilha contendo a situação de disponibilidade de cada resultado.
+A verificação do conteúdo dos arquivos foi realizada na próxima etapa.
+
+
+### Identificação de erros e dúplicas
+
+A remoção completa dos resultados indesejados só é possível após a verificação dos conteúdos dos arquivos, que ocorreu nessa etapa.
 
 Durante uma exploração dos arquivos baixados, foi verificado que existiam arquivos duplicados. Um script (*arquivos-duplicados.rb*) foi elaborado para identificar os arquivos duplicados. Uma nova coluna "Erro" foi adicionada à planilha, e 16 arquivos duplicados foram registrados. O script encontra-se disponível em <http://dx.doi.org/10.5281/zenodo.47800>.
 
@@ -248,143 +284,179 @@ O último passo foi a remoção das versões duplicadas ou edições diferentes 
 
 Esse processo de identificação de versões e edições é manual e demorado, para agilizá-lo a planilha foi ordenada por instituição e curso, e cada livro era comparado com os demais da mesma instituição.
 
-No final do processo 95 resultados foram marcados como indisponíveis, com erro ou duplicado. O *corpus* dessa pesquisa foi definido como sendo os 71 livros restantes.
+No final do processo 95 resultados foram marcados como indisponíveis, com erro ou duplicado. Os resultados restantes são válidos para serem selecionados como o *corpus*.
 
-Resultados        | Quantidade | Percentual
-:----------------:| :---------:| :--------:
-Filtrados         | 166        | 100%
-Indisponíveis     | 13         | 7,83%
-Erro ou Duplicado | 82         | 49,40%
-Corpus selecionado| 71         | 42,77%
+Resultados          | Quantidade | Percentual
+:------------------:| :---------:| :--------:
+Filtrados           | 166        | 100,00%
+Indisponíveis       | 13         | 7,83%
+Erro ou Duplicado   | 82         | 49,40%
+Resultados restantes| 71         | 42,77%
+
+A seleção exata de quais cursos e discipinas serão contempladas depende do resultado da busca.
 
 
+### Seleção do corpus
 
-Ilustração
-    Código não é ilustração
-    Tela do software mostrando código sim.
+Caso haja um número alto de resultados restantes o pesquisador pode optar por definir o corpus da pesquisa como sendo um subconjuto representativo dos resultados, como ocorreu nessa pesquisa.
 
-### Piloto
+Para escolha das materiais e análise posterior, os resultados foram categorizados na planilha de acordo com a disciplina do material. 
 
-Para elaborar e calibrar os instrumentos de coleta de dados e avaliação, uma piloto foi conduzido com dois livros de cada instituição (sorteados aleatoriamente) para serem analisados.
+A seleção do corpus buscou adicionar, no mínimo, um livro de cada categoria de disciplina por curso, disponível nos resultados restantes. No entanto, os cursos não depositaram conteúdos relativos a todas as categorias no SisUAB.
 
-#### Como o piloto foi conduzido
-    Seleção das amostras dos livros
-    Elaboração do formulário
-    Categorização dos livros em disciplinas
-    Remoção de livros
-        duplicados
-        similares
-            remove versão mais nova
+Curso | Instituição | Quantidade
+:----:|:-----------:| :---------:
+A     | 1           | X
+B     | 1           | X
+C     | 1           | X
+D     | 1           | X
+E     | 1           | X
 
-### Métrica
+Categoria           | Quantidade
+:------------------:| :---------:
+Programação         | x
+Sistemas            | x
+Banco de Dados      | x
+Redes               | x
+Arquitetura         | x
+Estrutura de Dados  | x
 
-### Escala para avaliar as técnicas
 
-Para facilitar a análise, foi determinado que o uso de todas as técnicas seriam avaliadas através de uma escala de 1 a 5:
+## Métrica e medição
 
-1. O recurso não foi utilizado.
-2. O recurso foi utilizado raramente, quase imperceptível.
-3. A utilização do recurso foi perceptível, mas não o suficiente para ser percebido como uma prática parcialmente adotada na obra.
-4. O recurso foi adotado parcialmente na obra. O recurso pode ter sido bem adotado em alguns capítulos, mas foi insuficiente para a obra inteira.
-5. O recurso foi adotado e distribuído de forma suficiente por toda a obra.
+
+Para facilitar a análise, foi utilizada uma escala ordinal para pontuar como as técnicas foram utilizadas. Para cada livro as técnicas serão pontuadas de 0 a 4, de acordo com a utilização da técnica e o quanto ela contemplada a obra:
 
 Escala |  Contempla de forma suficiente
 :-----:|  :-----------------------------:
-1      |  Não contempla
-2      |  Até 25% da obra
-3      |  De 25% a 50% da obra
-4      |  De 50% a 75% da obra
-5      |  De 75% a 100% da obra
+0      |  A técnica não foi utilizada
+1      |  Contempla até 25% da obra
+2      |  Contempla de 26% a 50% da obra
+3      |  Contempla de 51% a 75% da obra
+4      |  Contempla de 76% a 100% da obra
 
 : Escala de avaliação segundo a utilização e distribuição da técnica.
 
-#### Como as técnicas foram implementadas e como medi-las?
-    Objetivos de Aprendizagem
-        Implementação
-            Sem objetivos
-            Localização
-                Objetivos por capítulo
-                Objetivos por unidade
-            Redação
-                Textual
-                Lista
-                Verbos no infinitivo
-            Bloom
-        Medição
-            1
-                Localização/Frequencia
-                    Texto(+0)
-                    Unidade (+1)
-                    Capítulo (+3)
-                Redação
-                    Textual(+0)
-                    Listagem focando conteúdos(+1)
-                    Bloom(+2)
-        Validação da métrica
-    Linguaguem dialógica
-        Não foi utilizada
-        Implementação
-        Medição
-            Linguagem
-                Linguagem científica(0)
-                Saudações(1)
-                Monólogos(1)
-                Mensagens motivacionais(1)
-                Envolvimento do aprendente(3)
-            Frequência
-                1: O recurso não foi utilizado.
-                2: O recurso foi utilizado raramente, quase imperceptível.
-                3: A utilização do recurso foi perceptível, mas não o suficiente para ser percebido como uma prática parcialmente adotada na obra.
-                4. O recurso foi adotado parcialmente na obra. O recurso pode ter sido bem adotado em alguns capítulos, mas foi insuficiente para a obra inteira.
-                5. O recurso foi adotado distribuído de forma suficiente por toda a obra.
-        Validação da métrica
-    Atividades de autoavaliação
-        Localização
-            Início
-            Fim do capítulo
-        Quantidade
-        Frequência
-        Implementação
-        Medição
-    Espaço para realização das atividades
-        Implementação
-        Medição
-    Respostas das Atividades de autoavaliação
-        Implementação
-        Medição
-    Ilustrações Didáticas
-        Implementação
-        Medição
-    Exemplos
-        Implementação
-        Medição
-    Conteúdo Multimídia
-        Implementação
-        Medição
-    Resumos
-        Implementação
-            Localização/Frequencia
-                Não utilizado(1)
-                Unidade (3)
-                Capítulo (5)
-        Medição
-    Informações periféricas sem quebrar fluxo
-        Implementação
-        Medição
-    Lista de conteúdo por unidade
-        Implementação
-        Medição
-    Glossário
-        Implementação
-        Medição
-    Destaque do código
-        Implementação
-        Medição
-    Texto alinhado a esquerda
+A escala de avaliação pode ser imaginada como sendo medidas de um quarto arredondadas para cima. Se a técnica não foi utilizada, será avaliada como 0. Se ela contemplou até 1/4 da obra, ela recebe a pontuação 1. Se contempou um pouco mais de 1/4, então recebe 2 até contemplar 2/4 e assim por diante.
+
+Para exemplificar a métrica utilizada, suponhamos um livro com 5 capítulos e a utilização da técnica ``Ilustração'', as pontuações das utilizações da técnica poderiam ser realizadas da seguinte forma:
+
+
+
+Pontuação | Situação
+:--------:|------------------------------------------------------------
+0         | O livro não possui ilustrações.
+1         | O livro apresenta apenas um capítulo (20%) com ilustrações. 
+2         | O livro possui dois capítulos (40%) bem ilustrados. Ou o livro possui 4 capítulos ilustrados, mas os dois deles possuem apenas uma única ilustração. Ou todos os capítulos possuem poucas ilustrações.
+3         | O livro possui três capítulos (60%) bem ilustrados. Ou dois capítulos bem ilustrados e dois com poucas ilustrações.
+4         | O livro possui quatro (80%) ou cinco (100%) capítulos bem ilustrados.
+
+
+: Situações hipotéticas para avaliação da técnica Ilustração em um livro com 5 capítulos do mesmo tamanho.
+
+
+A tabela a seguir foi elaborada para auxiliar a pontuação da utilização das técnicas com base na quantidade de capítulo e os percentuais das pontuações de 0 a 5 -- um avaliador por utilizá-la para determinar a avaliação de uma técnica. 
+
+Capítulos | 0 |  1  (até 25%) | 2  (26% a 50%)|  3 (51% a 75%)|  4 (76% a 100%)
+:--------:| :-:| :-:| :-:| :-:| :-:
+4|0|1|2|3|4
+5|0|1,25 |2,5|3,75|5
+6|0|1,5|3|4,5|6
+7|0|1,75| 3,5|5,25|7
+8|0|2| 4|6|8
+9|0|2,25|4,5|6,75|9
+10|0|2,5|5|7,5|10
+11|0|2,75|5,5|8,25|11
+12|0|3|6|9|12
+13|0|3,25|6,5|9,75|13
+14|0|3,5|7|10,5|14
+15|0|3,75|7,5|11,25|15
+16|0|4|8|12|16
+
+: Tabela de referência para auxiliar a pontuação das técnicas por quantidade de capítulos.
+
+
+A noção de que a utilização de uma técnica *contempla um percentual da obra* é relativa a quantidade de páginas e a própria técnica utilizada. 
+
+Daqui por diante o termo "utilização" será suprimido, e quando for mecionado ``avaliação da técnica'' estará se referindo a avaliação da utilização da técnica. A seguir são apresentadas considerações sobre as avaliações de cada técnica.
+
+
+### Objetivos de Aprendizagem
+
+A avaliação dos objetivos de aprendizagem apresenta as seguintes dificuldades: apresentação de metas no lugar de objetivos, o dimensionamento dos objetivos para o capítulo e objetivos apresentados por unidade (agrupamento de capítulos).
+
+Caso hajam *metas* na lista dos objetivos elas devem ser desconsideradas. Nessa pesquisa, a métrica que busca medir a utilização de objetivos de aprendizagem contará apenas a utilização dos objetivos de aprendizagem, ignorando os objetivos escritos no formado de *meta*. De tal forma que, se em uma lista de objetivos de um capítulo houverem escritas apenas metas, então deve-se considerar que a técnica não foi utilizada nesse capítulo.
+
+Deve existir uma proporcionalidade entre o número de objetivos e o tamanho do capítulo a que pertence. Considera-se que a técnica "Objetivos de Aprendizagem" contempla a obra inteira se os objetivos foram escritos por capítulo, em formato de lista e existe uma proporcionalidade suficiente entre os números de objetivos apresentados e a quantidade de páginas dos capítulos. Dificilmente um único objetivo de aprendizagem seria suficiente para contemplar apropriadamente um capítulo de 100 páginas, portanto durante a avaliação deve-se julgar se os objetivos válidos (que não são metas) são suficientes para contemplar a obra inteira.
+
+A contabilidade dos objetivos apresentados por unidade será dividida pela quantidade de capítulos a que ela se refere. Alguns livros apresentam os objetivos por unidade, embora nesses casos os objetivos tenham sido dimensionados para contemplar diversos capítulos, na prática, o aluno sentirá dificuldades de verificar sua aprendizagem ao término de uma aula pois não há certezas sobre quais dos objetivos correspondem a cada aula. A avaliação nesse caso ocorrerá distribuindo os objetivos da unidade para os capítulos correspondentes e aplicando a noção proporciondalidade dos objetivos apresentada anteriormente.
+
+
+### Linguaguem dialógica
+
+A linguagem dialógica pode ser claramente percebida quando o texto produzido é centrado em um diálogo com o aluno. Os seguintes elementos são indícios da utilização de linguagem dialógica no texto: 
+
+- Saudações
+- Convite a reflexões e envolvimento
+- Perguntas retóricas
+- Ofertas de navegação no texto
+- Frases motivacionais
+- Presença da palavra "você"
+
+A avaliação da linguagem dialógica deve levar em consideração como esses elementos foram utilizados e distribuídos pela obra.
+
+### Atividades de autoavaliação
+
+As atividades de autoavaliação quando presentes podem estarem distribuídas ao longo do texto ou condensadas nos finais dos capítulos, a ausência total de atividades também pode ser percebida em alguns materiais didáticos.
+
+### Espaço para realização das atividades
+
+A verificação de espaço para realização de atividades é relativamente fácil de ser realizada, basta procurar por linhas ou lacunas para o preenchimento. Atividades de marcar Verdadeiro (V) ou Falso (F) quase sempre proporcionam o espaço para seu preenchimento.
+
+Os espaços deixados para anotações nos finais dos capítulos não deve ser confundido com o espaço para realizações de atividades. Alguns materiais deixam espaços para anotações nos final do capítulos e quando as atividades também estão condensadas no final pode-se imaginar que ele foi reservado para as realizadações das atividades, no entanto nesses casos percebe-se que os espaços não são convidativos para as respostas nem possuem o tamanho apropriado para as respostas, devendo portanto ser ignorados como espaços para realizações de atividades.
+
+
+### Ilustrações Didáticas
+
+As ilustrações serão consideradas didáticas somente quando estiverem referenciadas no texto e auxiliando a compreensão do conteúdo. Nessa categoria enquadram-se esquemas, ilustrações visuais dos conteúdos apresentados, *screenshots* de um processo, diagramas etc, que forem apresentados e contribuídos com a discussão ou aprendizado do texto.
+
+As ilustrações meramente decorativas deverão ser ignoradas. Alguns materiais apresentam imagens decorativas, geralmente no início dos capítulos para compor o design da capa do capítulo, ou dispersas ao longo do texto sem nenhum texto relacionado a elas, essas imagens serão ignoradas pois trazem pouco valor didático.
+
+Fotos de pessoas ou personagem também serão ignoradas quando o propósito for de apenas ilustrar a personalidade. Alguns textos apresentam fotografias de pessoas que estão sendo mencionadas, essas imagens não facilitam o entendimento do texto nem auxiliam no aprofundamento das discussões, sevem apenas para apresentar o personagem. Essas fotografias não serão consideradas ilustrações dialógicas, devendo ser ignoradas durante a avaliação.
+
+As ilustrações serão contabilizadas por página. Ao avaliar a utilização das ilustrações, podemos contabilizar as páginas ilustradas e verificar sua abrangência para a obra, não sendo necessário contabilizar individualmente cada ilustração o que tornaria o processo custoso e não aumentaria a percepção de ilustração da obra.
+
+### Referências a conteúdos multimídia
+
+As referências a conteúdos multimídia costumam estarem destacados através 
+
+
+
+
+###    Informações periféricas sem quebrar fluxo
         Implementação
         Medição
 
-#### Processo de aquisição dos dados
+###    Resumos
+
+###    Lista de conteúdo por unidade
+        Implementação
+        Medição
+###    Glossário
+        Implementação
+        Medição
+###    Destaque do código
+        Implementação
+        Medição
+###    Texto alinhado a esquerda
+        Implementação
+        Medição
+
+## Processo de aquisição dos dados
+
+
+
+
     Formulário de avaliação
     Validade
 
