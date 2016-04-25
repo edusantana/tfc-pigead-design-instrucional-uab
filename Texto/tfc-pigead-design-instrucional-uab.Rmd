@@ -94,9 +94,9 @@ As informações periféricas são recursos que apresentam informações fora do
 
 As informações periféricas complementam o conteúdo pricipal do texto, costumam serem  utilizadas para aprofundar certos pontos da aula, apresentar curiosidades, apresentar informações a alunos menos preparado para o estudo daquela aula, ressaltar informações e conxtextualizar através de outras mídias [@Silva2013 p. 68]. 
 
-### Lista de conteúdo por unidade
+### Lista de conteúdo por capítulo
 
-Esse recurso consiste em apresentar um minisumário por unidade de estudo, para que o aluno possa ver antecipadamente os conteúdos que serão abordados por ela, as vezes também apresenta-se através de uma lista de conceitos [@Freeman2005 p. 132].
+Esse recurso consiste em apresentar um minisumário por capítulo, para que o aluno possa ver antecipadamente os conteúdos que serão abordados por ela, as vezes também apresenta-se através de uma lista de conceitos [@Freeman2005 p. 132].
 
 ### Glossário
 
@@ -104,10 +104,9 @@ O glossário tem o propósito de "facilitar a clareza e compreensão do texto, s
 
 Recomenda-se que caso as explicações dos termos sejam breves, elas sejam apresentadas próximo a eles, caso contrário, podem ser colocadas no final do material ou unidade [@Preti2010 p. 106].
 
-### Destaque do código
+### Código com destaque da sintaxe
 
-O destaque do código consiste em apresentar os códigos fonte com destaque (cor, negrito ou itálico) de acordo com a sintaxe da linguagem do código apresentada. Esse recurso, praticamente essencial em ambientes de programação, possibilita um aumento de 25% na legibilidade do código, tornando-o mais fácil de ser compreendido [@Sarkar2015].
-
+O Código com destaque da sintaxe consiste em apresentar os códigos fonte com destaque (cor, negrito ou itálico) de acordo com a sintaxe da linguagem do código apresentada. Esse recurso, praticamente essencial em ambientes de programação, possibilita um aumento de 25% na legibilidade do código, tornando-o mais fácil de ser compreendido [@Sarkar2015].
 
 # Método
 
@@ -221,7 +220,7 @@ O seguinte *string* final de busca foi elaborado para representar os cursos: “
 
 As disciplinas escolhidas para representar a área de computação foram: Linguagem de Programação, Introdução a Algoritmo, Sistemas Operacionais, Análise de Sistemas, Engenharia de Software, Redes de computadores, Estrutura de Dados, Banco de Dados e Arquitetura de Computadores e Introdução a Computação.
 
-O *string* final de busca elaborado para representar as disciplinas foi: “Algoritmo Programação Sistema Software Programa Dados Computação Informática Computador”. De forma similar, percebe-se que todas as disciplinas serão contempladas pelo parâmetro de busca.
+O *string* final de busca elaborado para representar as disciplinas foi: “Algoritmo Programação Sistema Software Programa Dados Computação Informática Computador”. De forma similar, percebe-se que todas as disciplinas são contempladas pelo parâmetro de busca.
 
 A realização da busca consiste em utilizar os parâmetros de busca no SisUAB, conforme pode ser visto na imagem a seguir.
 
@@ -397,7 +396,7 @@ A contabilidade dos objetivos apresentados por unidade será dividida pela quant
 A linguagem dialógica pode ser claramente percebida quando o texto produzido é centrado em um diálogo com o aluno. Os seguintes elementos são indícios da utilização de linguagem dialógica no texto: 
 
 - Saudações
-- Convite a reflexões e envolvimento
+- Convites a reflexões e envolvimento
 - Perguntas retóricas
 - Ofertas de navegação no texto
 - Frases motivacionais
@@ -407,60 +406,125 @@ A avaliação da linguagem dialógica deve levar em consideração como esses el
 
 ### Atividades de autoavaliação
 
-As atividades de autoavaliação quando presentes podem estarem distribuídas ao longo do texto ou condensadas nos finais dos capítulos, a ausência total de atividades também pode ser percebida em alguns materiais didáticos.
+Todas as atividades presentes no texto foram consideradas atividades de autoavaliação.
 
-### Espaço para realização das atividades
+### Espaço para realizações das atividades
 
-A verificação de espaço para realização de atividades é relativamente fácil de ser realizada, basta procurar por linhas ou lacunas para o preenchimento. Atividades de marcar Verdadeiro (V) ou Falso (F) quase sempre proporcionam o espaço para seu preenchimento.
+A verificação de espaços para realizações das atividades é relativamente fácil, basta procurar por linhas ou lacunas para o preenchimento nas atividades. Atividades de marcar Verdadeiro (V) ou Falso (F) quase sempre proporcionam o espaço para seu preenchimento.
 
-Os espaços deixados para anotações nos finais dos capítulos não deve ser confundido com o espaço para realizações de atividades. Alguns materiais deixam espaços para anotações nos final do capítulos e quando as atividades também estão condensadas no final pode-se imaginar que ele foi reservado para as realizadações das atividades, no entanto nesses casos percebe-se que os espaços não são convidativos para as respostas nem possuem o tamanho apropriado para as respostas, devendo portanto ser ignorados como espaços para realizações de atividades.
+Os espaços deixados para anotações nos finais dos capítulos não devem ser confundidos com espaço para realizações de atividades. Alguns materiais deixam espaços para anotações nos final do capítulos e quando as atividades também estão condensadas no final pode-se imaginar que eles foram reservados para as realizadações das atividades, no entanto nesses casos percebe-se que os espaços não são convidativos para as respostas, nem possuem o tamanho apropriado para as respostas, devendo portanto serem ignorados.
 
 
 ### Ilustrações Didáticas
 
-As ilustrações serão consideradas didáticas somente quando estiverem referenciadas no texto e auxiliando a compreensão do conteúdo. Nessa categoria enquadram-se esquemas, ilustrações visuais dos conteúdos apresentados, *screenshots* de um processo, diagramas etc, que forem apresentados e contribuídos com a discussão ou aprendizado do texto.
+As ilustrações serão consideradas didáticas somente quando estiverem associadasa ao texto, auxiliando a compreensão do conteúdo. Nessa categoria enquadram-se esquemas, fotos ou ilustrações sobre o conteúdo ou atividade apresentados, contribuindo para a compreensão ou ilustração do texto.
 
 As ilustrações meramente decorativas deverão ser ignoradas. Alguns materiais apresentam imagens decorativas, geralmente no início dos capítulos para compor o design da capa do capítulo, ou dispersas ao longo do texto sem nenhum texto relacionado a elas, essas imagens serão ignoradas pois trazem pouco valor didático.
 
-Fotos de pessoas ou personagem também serão ignoradas quando o propósito for de apenas ilustrar a personalidade. Alguns textos apresentam fotografias de pessoas que estão sendo mencionadas, essas imagens não facilitam o entendimento do texto nem auxiliam no aprofundamento das discussões, sevem apenas para apresentar o personagem. Essas fotografias não serão consideradas ilustrações dialógicas, devendo ser ignoradas durante a avaliação.
+Fotos de pessoas ou personagem também serão ignoradas, quando o propósito for de apenas ilustrar a personalidade. Alguns textos apresentam fotografias de pessoas que estão sendo mencionadas, essas imagens não facilitam o entendimento do texto nem auxiliam no aprofundamento das discussões, sevem apenas para apresentar o personagem. Essa decisão foi tomada para diferenciar livros com ilustrações que facilitam o entendimento de livros que possuem fotografias. Por exemplo, um livro de filosofia que apresenta imagens dos filósofos é diferente de um livro que apresenta esquemas e ilustrações das teorias apresentadas, tornando o apredizado mais efetivo. Portanto imagens de personagens não serão consideradas ilustrações didáticas, e serão ignoradas durante a avaliação. 
 
-As ilustrações serão contabilizadas por página. Ao avaliar a utilização das ilustrações, podemos contabilizar as páginas ilustradas e verificar sua abrangência para a obra, não sendo necessário contabilizar individualmente cada ilustração o que tornaria o processo custoso e não aumentaria a percepção de ilustração da obra.
+As ilustrações serão contabilizadas por página. Ao avaliar a utilização das ilustrações, podemos contabilizar as páginas ilustradas e verificar sua abrangência para a obra, não sendo necessário contabilizar individualmente cada ilustração, o que tornaria a avaliação mais custosa. De forma geral, nós temos uma sensação de que um livro é mais ilustrado do que o outro contando a quantidade de páginas que possuem ilustrações.
 
-### Referências a conteúdos multimídia
+Códigos fontes não serão considerados ilustrações didáticas. Em livros de informática é comum encontrar códigos fontes, mas eles não serão considerados ilustrações, a não ser que hajam desenhos, tais como a ilustrações de mudança de valor de uma variável após uma atribuição, ou comparação de códigos, etc.
 
-As referências a conteúdos multimídia costumam estarem destacados através 
+### Código com destaque da sintaxe
 
+Essa técnica será contabilizada mesmo que o código seja apresentado como uma imagem. Alguns livros apresentam códigos fonte como imagens contendo os destaques das sintaxes, nesses casos eles erão considerados códigos com destaque da sintaxe e não serão contabilizados como ilustrações.
 
+A avaliação dos códigos com destaque da sintaxe, similiar as ilustrações, também serão contabilizados por página.
 
+### Glossário
+
+A abrangência do glossário pode ser verificada por página ou contadas aos final do capítulo. Alguns livros apresentam as expressões do glossário ao longo do texto, próximo ao primeiro uso da palavra e outros apresentam uma seção de glossário por capítulo ou ainda apenas um glossário no final do livro. Independente do caso, a abrangência do glossário pode ser avaliada verificando a proporção e palavras por capítulo.
+
+Quando a apresentação do glossário ocorre sem quebrar o fluxo, essa informação também deve ser contabilizada como mostrado a seguir.
 
 ###    Informações periféricas sem quebrar fluxo
-        Implementação
-        Medição
 
-###    Resumos
+As informações periféricas devem ser contabilizadas sempre que houverem caixas de texto sendo apresentadas sem quebrar o fluxo natural de leitura. As informações periféricas costumam apresentar conteúdos complementares, tais como curiosidades, aprofundamentos, e até mesmo compondo um glossário. No último caso, percebe-se que cada ocorrência de um glossário pode também corresponder uma ocorrênciade desta técnica, se ele também for apresentado sem quebrar o fluxo do texto.
 
-###    Lista de conteúdo por unidade
-        Implementação
-        Medição
-###    Glossário
-        Implementação
-        Medição
-###    Destaque do código
-        Implementação
-        Medição
-###    Texto alinhado a esquerda
-        Implementação
-        Medição
+
+### Resumos ou sínteses
+
+Serão considerados resumos ou sínteses seções ou caixas apresentadas no final dos capítulos, ou parágrafos em finais de seções com o propósito de rever o que foi apresentado por elas.
+
+No caso dos resumos apresentedos no final dos capítulos, espera-se que essa técnica seja empregada uma uníca vez por capítulo, abrangindo o capítulo por inteiro.
+
+Em alguns desenhos instrucionais, os capítulos podem ser dividos em seções independentes, apresentando parágrafos de resumo ao final das seções. Nesses casos a abrangência do resumo contempla a seção apresentada, a abrangência da técnica em relação ao capítulo dependerá da presença dos resumos de todas as seções que o compõe.
+
+### Referências a conteúdos multimídias
+
+Nessa pesquisa somente vídeos, filmes, áudios, animações e simulações serão considerados conteúdos multimídias. As referências ao conteúdos multimídia portantos pode ser apresentados nos livros através de indicações, fornecendo os links dos conteúdos, ou simplesmente indicando o nome do filme por exemplo. Similar ao resumo, uma única ocorrência de referência de conteúdo multimídia contempla o capítulo inteiro.
+
+
+### Lista de conteúdo por capítulo
+
+Essa técnica será contabilizada sempre que presente um minisumário ou uma lista de conteúdos por capítulo. Quando presente a técnica contempla o capítulo inteiro. 
+
+Sumários devem ser ignorados. O sumário no início dos livros não corresponde a essa técnica, que é presente por capítulo e portanto não deverá ser contabilizados.
+
 
 ## Processo de aquisição dos dados
 
+O processo de aquisição dos dados consistiu em avaliar, com o auxílio de um formulário, as técnicas empregadas nos livros e registrar as avaliações para análise posterior.
+
+### Avaliação
+
+Avaliar as abrangências de todas as técnias sobre a obra não é uma atividade trivial, pois requer perceber como todas elas foram utilizadas ao longo de toda obra. Por exemplo, é fácil perceber que um livro não possui ilustrações, basta folheá-lo rapidamente. No entanto, perceber se as ilustrações contidas em um livro são didáticas e como elas abrangem a obra iteira requer um olhar mais detalhado.
+
+A avaliação de todas as técnicas presentes em um livro só pode realizada após a caracterização do uso de todas as técnicas presentes no livro. Para caracterizar o uso das técnicas na obra, pode-se utilizar medições por capítulos -- divisão natural dos livros. Com esse propóstio, um formulário foi elaborado para registrar as medições.
+
+### Formulário de avaliação
+
+O formulário foi de avaliação foi desenvolvido durante a execução do piloto. Inicialmente ele era digital e possuía campos reservados para o registro de utilização de todas as técnicas por capítulo. Mas depois percebemos que a verificação dos livros no computador e o preenchimento do formulário no mesmo meio tornava o processo demorado. Portanto o formulário passou a ser impresso e preenchido a lápis.
+
+O formulário passou por diveras modificações quando o formato mudou para o impresso. No formato final do formulário impresso, cada página permite a avaliação de dois livros, com espaços que facilitam as análises das obras por capítulos ou grupos de capítulos. Um espaço maior foi reservado para as técnicas mais utilizadas. 
+
+A ordem das técnicas no formulário foram otimizadas para facilitar as medições. Os campos de *Objetivos de aprendizagem* e *Resumo* foram posicionadas no início e final do formulário respectivamente, o que corresponde com as posições esperadas nos capítulos. A técnica *linguagem dialógica* ocupa a segunda posição, que pode ter seu correspondente nos capítulos, caso eles iniciem com dialógos. Em seguida a técnica de ilustração, que costuma ser bastante frequente. As técnicas de *Glossário, Fluxo alternativo e Referências multimídia* podem ser uma sequência natural nos livros, e sua aproximidade permite registrar o uso concorrente das técnicas, como por exemplo um glossário apresentado através de fluxo alternativo. E próximo do fim, as técnicas de *Atividades* e *Espaço para realizações das atividades* foram contempladas próximas, facilitando seu preenchimento.
+
+O formulário também possibilita registro qualitativo de informações. Para possibilitar triangulação na pesquisa, o formulário possibilita registro de informações adicionais que dificilmente seriam consideradas em uma pesquisa puramente quantitativa, como por exemplos: a indicação de que um livro não aparentava está diagramado ou que possui layout de revista (múltiplas colunas).
+
+### Registros das avaliações
+
+As avaliações das técnicas eram registradas primeiramente no formulário e posteriormente digitadas em uma planilha. Após a mensuração das técnicas, suas avaliações eram realizadas e registradas no formulário, que também recebia uma numeração para identificação e arquivamento. Posteriormente as informações eram registradas numa planilha, os formulários digitalizados e arquivados.
+
+
+<!--  
+
+Mostrar o diretório contendo as planilhas digitalizadas.
+
+-->
+
+
+### Validade
+
+- No formulário, os campos das técnicas foram marcados com uma inicial para evitar que o avaliador erre o local de registro da técnica em medição.
+
+é fácil confundir a medição
+
+de um formulário impresso agilizaria o processo, poi
 
 
 
-    Formulário de avaliação
-    Validade
 
-#### Análise dos dados
+As medições das técnicas foram realizadas através de identificações de usos por capítulos. 
+
+
+## Validade
+
+### Validade interna
+
+- Múltiplos pesquisadores.
+- Revisão de dados pelos pares.
+
+- validade externa
+
+### Inserção dos dados
+
+### Confiança
+
+
+## Análise dos dados
 - Como foram implementadas as técnicas de design instrucional nos livros de computação depositados no SisUAB?
 
 
