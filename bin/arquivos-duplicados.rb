@@ -10,7 +10,7 @@ require 'digest'
 arquivos = {}
 duplicados = 0
 
-Dir.foreach(Dir.getwd) do |filename|
+Dir.entries(Dir.getwd).sort!.each do |filename|
   next if filename == '.' or filename == '..' or Dir.exist?(filename)
   # do work on real items
   md5 = Digest::MD5.new
