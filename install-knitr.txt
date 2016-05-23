@@ -1,0 +1,13 @@
+install.packages(c("brew", "countrycode", "devtools", "dplyr", "ggplot2", "googleVis", "knitr", "MCMCpack", "repmis", "RCurl", "rmarkdown", "texreg", "tidyr", "WDI", "xtable", "Zelig"))
+Installing packages into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning in install.packages(c("brew", "countrycode", "devtools", "dplyr",  :
+  'lib = "/usr/local/lib/R/site-library"' is not writable
+Would you like to use a personal library instead?  (y/n) y
+Would you like to create a personal library
+~/R/x86_64-pc-linux-gnu-library/3.2
+to install packages into?  (y/n) y
+--- Please select a CRAN mirror for use in this session ---
+also installing the dependencies ‘minqa’, ‘nloptr’, ‘RcppEigen’, ‘lme4’, ‘colorspace’, ‘pbkrtest’, ‘mime’, ‘curl’, ‘openssl’, ‘RColorBrewer’, ‘dichromat’, ‘munsell’, ‘labeling’, ‘SparseM’, ‘MatrixModels’, ‘chron’, ‘R.methodsS3’, ‘R.oo’, ‘R.utils’, ‘zoo’, ‘car’, ‘lmtest’, ‘Formula’, ‘RcppArmadillo’, ‘miscTools’, ‘httr’, ‘memoise’, ‘whisker’, ‘digest’, ‘rstudioapi’, ‘jsonlite’, ‘git2r’, ‘withr’, ‘assertthat’, ‘R6’, ‘Rcpp’, ‘magrittr’, ‘lazyeval’, ‘DBI’, ‘BH’, ‘gtable’, ‘plyr’, ‘reshape2’, ‘scales’, ‘RJSONIO’, ‘evaluate’, ‘formatR’, ‘highr’, ‘markdown’, ‘stringr’, ‘yaml’, ‘coda’, ‘mcmc’, ‘quantreg’, ‘data.table’, ‘R.cache’, ‘bitops’, ‘htmltools’, ‘caTools’, ‘stringi’, ‘sandwich’, ‘VGAM’, ‘AER’, ‘geepack’, ‘Amelia’, ‘MatchIt’, ‘maxLik’, ‘survey’
+
+
