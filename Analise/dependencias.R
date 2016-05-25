@@ -2,4 +2,5 @@
 
 install.packages("knitr")
 install.packages("sampling")
+install.packages("survey")
 

@@ -36,6 +36,14 @@ task :situacao => :saida do
   system "cat", "./Analise/Saida/situacao.markdown"
 end
 
+file "Analise/Dados/filtrados-e-ofuscados.csv"
+
+desc "Seleciona amostra"
+task :amostra => "Analise/Dados/filtrados-e-ofuscados.csv" do
+	sh "R --no-save < Analise/seleciona-amostra.R"
+end
+
+
 task :analise => [ :situacao]
 
 task :default => [:analise]
